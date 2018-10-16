@@ -1,0 +1,5575 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Data</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script> 
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<link href="https://fonts.googleapis.com/css?family=Crimson+Text|Work+Sans" rel="stylesheet">
+<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<nav class="navbar navbar-default navbar-fixed-top">
+  <div class="container-fluid">
+    <div class="navbar-header">
+	<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span> 
+     </button>
+     <a class="navbar-brand" href="index.html">
+	<span class="glyphicon glyphicon-globe"></span>	
+	LATITUDE</a>
+    </div>
+	<div class="collapse navbar-collapse" id="myNavbar">	
+    <ul class="nav navbar-nav navbar-right">
+          <li class="dropdown">
+        <a class="dropdown-toggle" data-toggle="dropdown" href="#">PLOTS
+        <span class="caret"></span></a>
+        <ul class="dropdown-menu">
+          <li><a href="temperature.html" style="color:#F7F9FB"> TEMPERATURE</a></li>
+          <li><a href="humidity.html" style="color:#F7F9FB">HUMIDITY</a></li>
+          <li><a href="cloudiness.html" style="color:#F7F9FB">CLOUDINESS</a></li>
+  	  <li><a href="windspeed.html" style="color:#F7F9FB">WINDSPEED</a></li>
+	
+        </ul>
+      </li>
+      <li><a href="comparison.html">COMPARISON</a></li>
+      <li><a href="data.html">DATA</a></li>
+    </ul>
+  </div>
+</div>
+</nav>
+
+
+<div class="container">
+<div class="row">
+<div class="col-sm-12">
+	<div class="well">
+	<h1 align="center">Data Table</h1>
+	<hr><br>
+
+<div class="table-responsive">
+<table class="table-striped table-bordered table-hover table-condensed">
+<thead><tr>
+<th class="col-sm-3">City</th>
+<th class="col-sm-1">Country</th>
+<th class="col-sm-2">Date</th>
+<th class="col-sm-1">Lat</th>
+<th class="col-sm-1">Lon</th>
+<th class="col-sm-1">Max Temp</th>
+<th class="col-sm-1">Humidity</th>
+<th class="col-sm-1">Cloudiness</th>
+<th class="col-sm-1">Wind Speed</th>
+</tr></thead>
+<tbody><tr>
+<td>Onega</td>
+<td>RU</td>
+<td>09-02-2018</td>
+<td align="right">63.91</td>
+<td align="right">38.09</td>
+<td align="right">61.79</td>
+<td align="right">91</td>
+<td align="right">12</td>
+<td align="right">1.97</td>
+</tr>
+<tr>
+<td>Findlay</td>
+<td>US</td>
+<td>09-02-2018</td>
+<td align="right">41.04</td>
+<td align="right">-83.65</td>
+<td align="right">77.0</td>
+<td align="right">81</td>
+<td align="right">1</td>
+<td align="right">9.17</td>
+</tr>
+<tr>
+<td>Santa Isabel do Rio Negro</td>
+<td>BR</td>
+<td>09-02-2018</td>
+<td align="right">-0.41</td>
+<td align="right">-65.02</td>
+<td align="right">83.39</td>
+<td align="right">82</td>
+<td align="right">48</td>
+<td align="right">5.1</td>
+</tr>
+<tr>
+<td>Tamale</td>
+<td>GH</td>
+<td>09-02-2018</td>
+<td align="right">9.4</td>
+<td align="right">-0.84</td>
+<td align="right">82.85</td>
+<td align="right">88</td>
+<td align="right">76</td>
+<td align="right">6.55</td>
+</tr>
+<tr>
+<td>Poso</td>
+<td>ID</td>
+<td>09-02-2018</td>
+<td align="right">-1.4</td>
+<td align="right">120.75</td>
+<td align="right">74.75</td>
+<td align="right">100</td>
+<td align="right">12</td>
+<td align="right">4.09</td>
+</tr>
+<tr>
+<td>Varzea da Palma</td>
+<td>BR</td>
+<td>09-02-2018</td>
+<td align="right">-17.6</td>
+<td align="right">-44.73</td>
+<td align="right">87.26</td>
+<td align="right">38</td>
+<td align="right">0</td>
+<td align="right">11.14</td>
+</tr>
+<tr>
+<td>Longyan</td>
+<td>CN</td>
+<td>09-02-2018</td>
+<td align="right">25.1</td>
+<td align="right">117.03</td>
+<td align="right">73.4</td>
+<td align="right">88</td>
+<td align="right">48</td>
+<td align="right">1.74</td>
+</tr>
+<tr>
+<td>Aklavik</td>
+<td>CA</td>
+<td>09-02-2018</td>
+<td align="right">68.22</td>
+<td align="right">-135.01</td>
+<td align="right">32.0</td>
+<td align="right">89</td>
+<td align="right">75</td>
+<td align="right">12.75</td>
+</tr>
+<tr>
+<td>Pak Phanang</td>
+<td>TH</td>
+<td>09-02-2018</td>
+<td align="right">8.35</td>
+<td align="right">100.2</td>
+<td align="right">80.6</td>
+<td align="right">69</td>
+<td align="right">20</td>
+<td align="right">4.7</td>
+</tr>
+<tr>
+<td>Port Alfred</td>
+<td>ZA</td>
+<td>09-02-2018</td>
+<td align="right">-33.59</td>
+<td align="right">26.89</td>
+<td align="right">63.95</td>
+<td align="right">100</td>
+<td align="right">92</td>
+<td align="right">9.8</td>
+</tr>
+<tr>
+<td>Alta Floresta</td>
+<td>BR</td>
+<td>09-02-2018</td>
+<td align="right">-9.87</td>
+<td align="right">-56.08</td>
+<td align="right">95.36</td>
+<td align="right">32</td>
+<td align="right">0</td>
+<td align="right">3.2</td>
+</tr>
+<tr>
+<td>Amahai</td>
+<td>ID</td>
+<td>09-02-2018</td>
+<td align="right">-3.31</td>
+<td align="right">129.0</td>
+<td align="right">80.87</td>
+<td align="right">100</td>
+<td align="right">56</td>
+<td align="right">11.81</td>
+</tr>
+<tr>
+<td>Tiksi</td>
+<td>RU</td>
+<td>09-02-2018</td>
+<td align="right">71.64</td>
+<td align="right">128.87</td>
+<td align="right">39.2</td>
+<td align="right">100</td>
+<td align="right">76</td>
+<td align="right">12.15</td>
+</tr>
+<tr>
+<td>Ambatofinandrahana</td>
+<td>MG</td>
+<td>09-02-2018</td>
+<td align="right">-20.55</td>
+<td align="right">46.8</td>
+<td align="right">62.96</td>
+<td align="right">56</td>
+<td align="right">12</td>
+<td align="right">6.44</td>
+</tr>
+<tr>
+<td>Andros Town</td>
+<td>BS</td>
+<td>09-02-2018</td>
+<td align="right">24.73</td>
+<td align="right">-77.79</td>
+<td align="right">84.2</td>
+<td align="right">70</td>
+<td align="right">40</td>
+<td align="right">13.87</td>
+</tr>
+<tr>
+<td>Orumiyeh</td>
+<td>IR</td>
+<td>09-02-2018</td>
+<td align="right">37.55</td>
+<td align="right">45.08</td>
+<td align="right">84.2</td>
+<td align="right">26</td>
+<td align="right">0</td>
+<td align="right">6.93</td>
+</tr>
+<tr>
+<td>Noyabrsk</td>
+<td>RU</td>
+<td>09-02-2018</td>
+<td align="right">63.2</td>
+<td align="right">75.45</td>
+<td align="right">48.2</td>
+<td align="right">71</td>
+<td align="right">0</td>
+<td align="right">8.46</td>
+</tr>
+<tr>
+<td>Otjiwarongo</td>
+<td>NA</td>
+<td>09-02-2018</td>
+<td align="right">-20.46</td>
+<td align="right">16.65</td>
+<td align="right">82.85</td>
+<td align="right">16</td>
+<td align="right">0</td>
+<td align="right">8.57</td>
+</tr>
+<tr>
+<td>Mandalgovi</td>
+<td>MN</td>
+<td>09-02-2018</td>
+<td align="right">45.76</td>
+<td align="right">106.27</td>
+<td align="right">50.81</td>
+<td align="right">59</td>
+<td align="right">0</td>
+<td align="right">15.05</td>
+</tr>
+<tr>
+<td>Potosi</td>
+<td>BO</td>
+<td>09-02-2018</td>
+<td align="right">-19.59</td>
+<td align="right">-65.75</td>
+<td align="right">42.8</td>
+<td align="right">16</td>
+<td align="right">0</td>
+<td align="right">11.41</td>
+</tr>
+<tr>
+<td>Dicabisagan</td>
+<td>PH</td>
+<td>09-02-2018</td>
+<td align="right">17.08</td>
+<td align="right">122.42</td>
+<td align="right">77.9</td>
+<td align="right">100</td>
+<td align="right">68</td>
+<td align="right">2.42</td>
+</tr>
+<tr>
+<td>Terrace</td>
+<td>CA</td>
+<td>09-02-2018</td>
+<td align="right">54.52</td>
+<td align="right">-128.61</td>
+<td align="right">50.0</td>
+<td align="right">93</td>
+<td align="right">75</td>
+<td align="right">11.41</td>
+</tr>
+<tr>
+<td>Itupiranga</td>
+<td>BR</td>
+<td>09-02-2018</td>
+<td align="right">-5.13</td>
+<td align="right">-49.33</td>
+<td align="right">95.63</td>
+<td align="right">40</td>
+<td align="right">0</td>
+<td align="right">8.57</td>
+</tr>
+<tr>
+<td>Alvares Machado</td>
+<td>BR</td>
+<td>09-02-2018</td>
+<td align="right">-22.08</td>
+<td align="right">-51.47</td>
+<td align="right">81.41</td>
+<td align="right">59</td>
+<td align="right">76</td>
+<td align="right">11.59</td>
+</tr>
+<tr>
+<td>Balad</td>
+<td>ID</td>
+<td>09-02-2018</td>
+<td align="right">-6.76</td>
+<td align="right">108.42</td>
+<td align="right">79.25</td>
+<td align="right">100</td>
+<td align="right">12</td>
+<td align="right">14.5</td>
+</tr>
+<tr>
+<td>Boende</td>
+<td>CD</td>
+<td>09-02-2018</td>
+<td align="right">-0.28</td>
+<td align="right">20.88</td>
+<td align="right">81.41</td>
+<td align="right">77</td>
+<td align="right">20</td>
+<td align="right">2.75</td>
+</tr>
+<tr>
+<td>Dawei</td>
+<td>MM</td>
+<td>09-02-2018</td>
+<td align="right">14.07</td>
+<td align="right">98.19</td>
+<td align="right">71.24</td>
+<td align="right">100</td>
+<td align="right">92</td>
+<td align="right">1.74</td>
+</tr>
+<tr>
+<td>Seddon</td>
+<td>NZ</td>
+<td>09-02-2018</td>
+<td align="right">-41.67</td>
+<td align="right">174.07</td>
+<td align="right">49.28</td>
+<td align="right">100</td>
+<td align="right">92</td>
+<td align="right">4.65</td>
+</tr>
+<tr>
+<td>Murdochville</td>
+<td>CA</td>
+<td>09-02-2018</td>
+<td align="right">48.96</td>
+<td align="right">-65.49</td>
+<td align="right">70.16</td>
+<td align="right">78</td>
+<td align="right">76</td>
+<td align="right">5.77</td>
+</tr>
+<tr>
+<td>Velizh</td>
+<td>RU</td>
+<td>09-02-2018</td>
+<td align="right">55.61</td>
+<td align="right">31.2</td>
+<td align="right">73.31</td>
+<td align="right">61</td>
+<td align="right">88</td>
+<td align="right">3.2</td>
+</tr>
+<tr>
+<td>Lafia</td>
+<td>NG</td>
+<td>09-02-2018</td>
+<td align="right">8.5</td>
+<td align="right">8.51</td>
+<td align="right">74.21</td>
+<td align="right">100</td>
+<td align="right">92</td>
+<td align="right">4.54</td>
+</tr>
+<tr>
+<td>Shatrovo</td>
+<td>BG</td>
+<td>09-02-2018</td>
+<td align="right">42.29</td>
+<td align="right">22.98</td>
+<td align="right">87.8</td>
+<td align="right">22</td>
+<td align="right">0</td>
+<td align="right">11.41</td>
+</tr>
+<tr>
+<td>Tupancireta</td>
+<td>BR</td>
+<td>09-02-2018</td>
+<td align="right">-29.08</td>
+<td align="right">-53.84</td>
+<td align="right">56.93</td>
+<td align="right">100</td>
+<td align="right">92</td>
+<td align="right">7.11</td>
+</tr>
+<tr>
+<td>New Norfolk</td>
+<td>AU</td>
+<td>09-02-2018</td>
+<td align="right">-42.78</td>
+<td align="right">147.06</td>
+<td align="right">39.2</td>
+<td align="right">80</td>
+<td align="right">20</td>
+<td align="right">4.7</td>
+</tr>
+<tr>
+<td>Sabinas Hidalgo</td>
+<td>MX</td>
+<td>09-02-2018</td>
+<td align="right">26.51</td>
+<td align="right">-100.18</td>
+<td align="right">81.95</td>
+<td align="right">64</td>
+<td align="right">12</td>
+<td align="right">3.53</td>
+</tr>
+<tr>
+<td>Sri Aman</td>
+<td>MY</td>
+<td>09-02-2018</td>
+<td align="right">1.24</td>
+<td align="right">111.46</td>
+<td align="right">75.2</td>
+<td align="right">94</td>
+<td align="right">80</td>
+<td align="right">1.52</td>
+</tr>
+<tr>
+<td>Vihti</td>
+<td>FI</td>
+<td>09-02-2018</td>
+<td align="right">60.42</td>
+<td align="right">24.32</td>
+<td align="right">68.0</td>
+<td align="right">68</td>
+<td align="right">40</td>
+<td align="right">2.24</td>
+</tr>
+<tr>
+<td>Tapes</td>
+<td>BR</td>
+<td>09-02-2018</td>
+<td align="right">-30.67</td>
+<td align="right">-51.4</td>
+<td align="right">66.83</td>
+<td align="right">96</td>
+<td align="right">80</td>
+<td align="right">8.12</td>
+</tr>
+<tr>
+<td>Kawalu</td>
+<td>ID</td>
+<td>09-02-2018</td>
+<td align="right">-7.38</td>
+<td align="right">108.21</td>
+<td align="right">67.37</td>
+<td align="right">98</td>
+<td align="right">80</td>
+<td align="right">2.42</td>
+</tr>
+<tr>
+<td>Correntina</td>
+<td>BR</td>
+<td>09-02-2018</td>
+<td align="right">-13.34</td>
+<td align="right">-44.63</td>
+<td align="right">86.0</td>
+<td align="right">33</td>
+<td align="right">0</td>
+<td align="right">9.8</td>
+</tr>
+<tr>
+<td>Salta</td>
+<td>AR</td>
+<td>09-02-2018</td>
+<td align="right">-24.79</td>
+<td align="right">-65.41</td>
+<td align="right">50.0</td>
+<td align="right">57</td>
+<td align="right">0</td>
+<td align="right">3.36</td>
+</tr>
+<tr>
+<td>Tapes</td>
+<td>BR</td>
+<td>09-02-2018</td>
+<td align="right">-30.67</td>
+<td align="right">-51.4</td>
+<td align="right">66.83</td>
+<td align="right">96</td>
+<td align="right">80</td>
+<td align="right">8.12</td>
+</tr>
+<tr>
+<td>Urubicha</td>
+<td>BO</td>
+<td>09-02-2018</td>
+<td align="right">-15.63</td>
+<td align="right">-63.08</td>
+<td align="right">65.66</td>
+<td align="right">62</td>
+<td align="right">32</td>
+<td align="right">7.56</td>
+</tr>
+<tr>
+<td>Feicheng</td>
+<td>CN</td>
+<td>09-02-2018</td>
+<td align="right">36.18</td>
+<td align="right">116.77</td>
+<td align="right">72.14</td>
+<td align="right">100</td>
+<td align="right">92</td>
+<td align="right">3.76</td>
+</tr>
+<tr>
+<td>Pontal do Parana</td>
+<td>BR</td>
+<td>09-02-2018</td>
+<td align="right">-25.67</td>
+<td align="right">-48.51</td>
+<td align="right">68.0</td>
+<td align="right">94</td>
+<td align="right">90</td>
+<td align="right">4.7</td>
+</tr>
+<tr>
+<td>Shakiso</td>
+<td>ET</td>
+<td>09-02-2018</td>
+<td align="right">5.77</td>
+<td align="right">38.9</td>
+<td align="right">63.59</td>
+<td align="right">86</td>
+<td align="right">76</td>
+<td align="right">2.53</td>
+</tr>
+<tr>
+<td>Severo-Kurilsk</td>
+<td>RU</td>
+<td>09-02-2018</td>
+<td align="right">50.68</td>
+<td align="right">156.12</td>
+<td align="right">50.36</td>
+<td align="right">100</td>
+<td align="right">92</td>
+<td align="right">2.75</td>
+</tr>
+<tr>
+<td>Baft</td>
+<td>IR</td>
+<td>09-02-2018</td>
+<td align="right">29.23</td>
+<td align="right">56.61</td>
+<td align="right">70.52</td>
+<td align="right">16</td>
+<td align="right">0</td>
+<td align="right">7.67</td>
+</tr>
+<tr>
+<td>Ouargaye</td>
+<td>BF</td>
+<td>09-02-2018</td>
+<td align="right">11.5</td>
+<td align="right">0.06</td>
+<td align="right">74.84</td>
+<td align="right">100</td>
+<td align="right">92</td>
+<td align="right">5.55</td>
+</tr>
+<tr>
+<td>Tolaga Bay</td>
+<td>NZ</td>
+<td>09-02-2018</td>
+<td align="right">-38.37</td>
+<td align="right">178.3</td>
+<td align="right">54.41</td>
+<td align="right">66</td>
+<td align="right">0</td>
+<td align="right">18.75</td>
+</tr>
+<tr>
+<td>Kaputa</td>
+<td>ZM</td>
+<td>09-02-2018</td>
+<td align="right">-8.47</td>
+<td align="right">29.66</td>
+<td align="right">84.56</td>
+<td align="right">25</td>
+<td align="right">0</td>
+<td align="right">3.65</td>
+</tr>
+<tr>
+<td>Renfrew</td>
+<td>GB</td>
+<td>09-02-2018</td>
+<td align="right">55.88</td>
+<td align="right">-4.39</td>
+<td align="right">71.6</td>
+<td align="right">82</td>
+<td align="right">90</td>
+<td align="right">8.05</td>
+</tr>
+<tr>
+<td>Hue</td>
+<td>VN</td>
+<td>09-02-2018</td>
+<td align="right">16.47</td>
+<td align="right">107.58</td>
+<td align="right">73.4</td>
+<td align="right">100</td>
+<td align="right">75</td>
+<td align="right">6.93</td>
+</tr>
+<tr>
+<td>Ruteng</td>
+<td>ID</td>
+<td>09-02-2018</td>
+<td align="right">-8.61</td>
+<td align="right">120.46</td>
+<td align="right">65.66</td>
+<td align="right">92</td>
+<td align="right">20</td>
+<td align="right">2.98</td>
+</tr>
+<tr>
+<td>Kuldur</td>
+<td>RU</td>
+<td>09-02-2018</td>
+<td align="right">49.22</td>
+<td align="right">131.63</td>
+<td align="right">59.18</td>
+<td align="right">87</td>
+<td align="right">92</td>
+<td align="right">7.11</td>
+</tr>
+<tr>
+<td>Gornoye Loo</td>
+<td>RU</td>
+<td>09-02-2018</td>
+<td align="right">43.72</td>
+<td align="right">39.61</td>
+<td align="right">82.4</td>
+<td align="right">58</td>
+<td align="right">40</td>
+<td align="right">13.42</td>
+</tr>
+<tr>
+<td>Caldwell</td>
+<td>US</td>
+<td>09-02-2018</td>
+<td align="right">43.67</td>
+<td align="right">-116.69</td>
+<td align="right">55.94</td>
+<td align="right">93</td>
+<td align="right">1</td>
+<td align="right">2.08</td>
+</tr>
+<tr>
+<td>Tanout</td>
+<td>NE</td>
+<td>09-02-2018</td>
+<td align="right">14.97</td>
+<td align="right">8.88</td>
+<td align="right">92.3</td>
+<td align="right">54</td>
+<td align="right">36</td>
+<td align="right">4.43</td>
+</tr>
+<tr>
+<td>Mujiayingzi</td>
+<td>CN</td>
+<td>09-02-2018</td>
+<td align="right">42.12</td>
+<td align="right">118.78</td>
+<td align="right">60.62</td>
+<td align="right">50</td>
+<td align="right">0</td>
+<td align="right">6.22</td>
+</tr>
+<tr>
+<td>Bantacan</td>
+<td>PH</td>
+<td>09-02-2018</td>
+<td align="right">7.62</td>
+<td align="right">126.13</td>
+<td align="right">72.95</td>
+<td align="right">85</td>
+<td align="right">32</td>
+<td align="right">3.42</td>
+</tr>
+<tr>
+<td>Sapernoye</td>
+<td>RU</td>
+<td>09-02-2018</td>
+<td align="right">60.72</td>
+<td align="right">29.95</td>
+<td align="right">66.11</td>
+<td align="right">80</td>
+<td align="right">56</td>
+<td align="right">2.75</td>
+</tr>
+<tr>
+<td>Keskin</td>
+<td>TR</td>
+<td>09-02-2018</td>
+<td align="right">39.67</td>
+<td align="right">33.62</td>
+<td align="right">86.0</td>
+<td align="right">21</td>
+<td align="right">0</td>
+<td align="right">5.99</td>
+</tr>
+<tr>
+<td>Shatalovo</td>
+<td>RU</td>
+<td>09-02-2018</td>
+<td align="right">53.28</td>
+<td align="right">37.58</td>
+<td align="right">83.93</td>
+<td align="right">28</td>
+<td align="right">0</td>
+<td align="right">4.76</td>
+</tr>
+<tr>
+<td>Ishim</td>
+<td>RU</td>
+<td>09-02-2018</td>
+<td align="right">56.11</td>
+<td align="right">69.47</td>
+<td align="right">49.46</td>
+<td align="right">68</td>
+<td align="right">0</td>
+<td align="right">6.67</td>
+</tr>
+<tr>
+<td>Los Llanos de Aridane</td>
+<td>ES</td>
+<td>09-02-2018</td>
+<td align="right">28.66</td>
+<td align="right">-17.92</td>
+<td align="right">80.6</td>
+<td align="right">57</td>
+<td align="right">40</td>
+<td align="right">8.05</td>
+</tr>
+<tr>
+<td>Hohhot</td>
+<td>CN</td>
+<td>09-02-2018</td>
+<td align="right">40.81</td>
+<td align="right">111.65</td>
+<td align="right">68.0</td>
+<td align="right">49</td>
+<td align="right">0</td>
+<td align="right">6.71</td>
+</tr>
+<tr>
+<td>Port Keats</td>
+<td>AU</td>
+<td>09-02-2018</td>
+<td align="right">-14.25</td>
+<td align="right">129.55</td>
+<td align="right">72.41</td>
+<td align="right">95</td>
+<td align="right">0</td>
+<td align="right">4.43</td>
+</tr>
+<tr>
+<td>Fukue</td>
+<td>JP</td>
+<td>09-02-2018</td>
+<td align="right">35.03</td>
+<td align="right">136.69</td>
+<td align="right">78.8</td>
+<td align="right">83</td>
+<td align="right">75</td>
+<td align="right">17.22</td>
+</tr>
+<tr>
+<td>Nuuk</td>
+<td>GL</td>
+<td>09-02-2018</td>
+<td align="right">64.17</td>
+<td align="right">-51.74</td>
+<td align="right">44.6</td>
+<td align="right">56</td>
+<td align="right">90</td>
+<td align="right">10.29</td>
+</tr>
+<tr>
+<td>Lalmohan</td>
+<td>BD</td>
+<td>09-02-2018</td>
+<td align="right">22.34</td>
+<td align="right">90.74</td>
+<td align="right">80.96</td>
+<td align="right">95</td>
+<td align="right">80</td>
+<td align="right">14.5</td>
+</tr>
+<tr>
+<td>Bayji</td>
+<td>IQ</td>
+<td>09-02-2018</td>
+<td align="right">34.93</td>
+<td align="right">43.49</td>
+<td align="right">109.04</td>
+<td align="right">9</td>
+<td align="right">0</td>
+<td align="right">9.69</td>
+</tr>
+<tr>
+<td>Mazatlan</td>
+<td>MX</td>
+<td>09-02-2018</td>
+<td align="right">23.22</td>
+<td align="right">-106.42</td>
+<td align="right">75.2</td>
+<td align="right">100</td>
+<td align="right">75</td>
+<td align="right">3.36</td>
+</tr>
+<tr>
+<td>Carira</td>
+<td>BR</td>
+<td>09-02-2018</td>
+<td align="right">-10.36</td>
+<td align="right">-37.7</td>
+<td align="right">85.28</td>
+<td align="right">48</td>
+<td align="right">20</td>
+<td align="right">13.04</td>
+</tr>
+<tr>
+<td>Limni</td>
+<td>GR</td>
+<td>09-02-2018</td>
+<td align="right">39.92</td>
+<td align="right">20.54</td>
+<td align="right">93.2</td>
+<td align="right">56</td>
+<td align="right">20</td>
+<td align="right">4.7</td>
+</tr>
+<tr>
+<td>Humaita</td>
+<td>AR</td>
+<td>09-02-2018</td>
+<td align="right">-24.93</td>
+<td align="right">-65.37</td>
+<td align="right">50.0</td>
+<td align="right">57</td>
+<td align="right">0</td>
+<td align="right">3.36</td>
+</tr>
+<tr>
+<td>Lahan</td>
+<td>NP</td>
+<td>09-02-2018</td>
+<td align="right">26.71</td>
+<td align="right">86.48</td>
+<td align="right">72.32</td>
+<td align="right">95</td>
+<td align="right">12</td>
+<td align="right">2.75</td>
+</tr>
+<tr>
+<td>Harrisonburg</td>
+<td>US</td>
+<td>09-02-2018</td>
+<td align="right">38.45</td>
+<td align="right">-78.87</td>
+<td align="right">71.06</td>
+<td align="right">100</td>
+<td align="right">75</td>
+<td align="right">3.36</td>
+</tr>
+<tr>
+<td>Taoudenni</td>
+<td>ML</td>
+<td>09-02-2018</td>
+<td align="right">22.68</td>
+<td align="right">-3.98</td>
+<td align="right">107.96</td>
+<td align="right">16</td>
+<td align="right">0</td>
+<td align="right">6.44</td>
+</tr>
+<tr>
+<td>General Pico</td>
+<td>AR</td>
+<td>09-02-2018</td>
+<td align="right">-35.66</td>
+<td align="right">-63.75</td>
+<td align="right">58.73</td>
+<td align="right">49</td>
+<td align="right">12</td>
+<td align="right">11.48</td>
+</tr>
+<tr>
+<td>Lasa</td>
+<td>CY</td>
+<td>09-02-2018</td>
+<td align="right">34.92</td>
+<td align="right">32.53</td>
+<td align="right">87.8</td>
+<td align="right">79</td>
+<td align="right">20</td>
+<td align="right">11.41</td>
+</tr>
+<tr>
+<td>Barkot</td>
+<td>IN</td>
+<td>09-02-2018</td>
+<td align="right">30.81</td>
+<td align="right">78.21</td>
+<td align="right">66.65</td>
+<td align="right">98</td>
+<td align="right">88</td>
+<td align="right">1.74</td>
+</tr>
+<tr>
+<td>Swinford</td>
+<td>IE</td>
+<td>09-02-2018</td>
+<td align="right">53.94</td>
+<td align="right">-8.95</td>
+<td align="right">62.6</td>
+<td align="right">93</td>
+<td align="right">90</td>
+<td align="right">9.17</td>
+</tr>
+<tr>
+<td>Thompson</td>
+<td>CA</td>
+<td>09-02-2018</td>
+<td align="right">55.74</td>
+<td align="right">-97.86</td>
+<td align="right">51.8</td>
+<td align="right">100</td>
+<td align="right">90</td>
+<td align="right">5.82</td>
+</tr>
+<tr>
+<td>Alta Floresta</td>
+<td>BR</td>
+<td>09-02-2018</td>
+<td align="right">-9.87</td>
+<td align="right">-56.08</td>
+<td align="right">95.36</td>
+<td align="right">32</td>
+<td align="right">0</td>
+<td align="right">3.2</td>
+</tr>
+<tr>
+<td>Kununurra</td>
+<td>AU</td>
+<td>09-02-2018</td>
+<td align="right">-15.77</td>
+<td align="right">128.74</td>
+<td align="right">73.4</td>
+<td align="right">53</td>
+<td align="right">0</td>
+<td align="right">4.7</td>
+</tr>
+<tr>
+<td>Tezu</td>
+<td>IN</td>
+<td>09-02-2018</td>
+<td align="right">27.93</td>
+<td align="right">96.16</td>
+<td align="right">67.46</td>
+<td align="right">99</td>
+<td align="right">88</td>
+<td align="right">1.19</td>
+</tr>
+<tr>
+<td>Ahipara</td>
+<td>NZ</td>
+<td>09-02-2018</td>
+<td align="right">-35.17</td>
+<td align="right">173.16</td>
+<td align="right">54.86</td>
+<td align="right">90</td>
+<td align="right">36</td>
+<td align="right">14.72</td>
+</tr>
+<tr>
+<td>Mudgee</td>
+<td>AU</td>
+<td>09-02-2018</td>
+<td align="right">-32.6</td>
+<td align="right">149.59</td>
+<td align="right">45.41</td>
+<td align="right">99</td>
+<td align="right">92</td>
+<td align="right">9.01</td>
+</tr>
+<tr>
+<td>Kaberamaido</td>
+<td>UG</td>
+<td>09-02-2018</td>
+<td align="right">1.76</td>
+<td align="right">33.16</td>
+<td align="right">70.7</td>
+<td align="right">100</td>
+<td align="right">64</td>
+<td align="right">6.67</td>
+</tr>
+<tr>
+<td>Vytegra</td>
+<td>RU</td>
+<td>09-02-2018</td>
+<td align="right">61.01</td>
+<td align="right">36.45</td>
+<td align="right">64.13</td>
+<td align="right">94</td>
+<td align="right">80</td>
+<td align="right">3.65</td>
+</tr>
+<tr>
+<td>Jutai</td>
+<td>BR</td>
+<td>09-02-2018</td>
+<td align="right">-1.71</td>
+<td align="right">-47.89</td>
+<td align="right">89.24</td>
+<td align="right">66</td>
+<td align="right">0</td>
+<td align="right">5.44</td>
+</tr>
+<tr>
+<td>Kommunar</td>
+<td>RU</td>
+<td>09-02-2018</td>
+<td align="right">59.62</td>
+<td align="right">30.39</td>
+<td align="right">68.0</td>
+<td align="right">68</td>
+<td align="right">75</td>
+<td align="right">8.95</td>
+</tr>
+<tr>
+<td>Amazar</td>
+<td>RU</td>
+<td>09-02-2018</td>
+<td align="right">53.86</td>
+<td align="right">120.88</td>
+<td align="right">54.95</td>
+<td align="right">100</td>
+<td align="right">92</td>
+<td align="right">2.64</td>
+</tr>
+<tr>
+<td>Manado</td>
+<td>ID</td>
+<td>09-02-2018</td>
+<td align="right">1.49</td>
+<td align="right">124.85</td>
+<td align="right">82.4</td>
+<td align="right">54</td>
+<td align="right">40</td>
+<td align="right">2.24</td>
+</tr>
+<tr>
+<td>Biak</td>
+<td>ID</td>
+<td>09-02-2018</td>
+<td align="right">-0.91</td>
+<td align="right">122.88</td>
+<td align="right">77.36</td>
+<td align="right">88</td>
+<td align="right">48</td>
+<td align="right">5.99</td>
+</tr>
+<tr>
+<td>Aksarka</td>
+<td>RU</td>
+<td>09-02-2018</td>
+<td align="right">66.56</td>
+<td align="right">67.8</td>
+<td align="right">46.49</td>
+<td align="right">83</td>
+<td align="right">0</td>
+<td align="right">2.75</td>
+</tr>
+<tr>
+<td>Barra Velha</td>
+<td>BR</td>
+<td>09-02-2018</td>
+<td align="right">-26.63</td>
+<td align="right">-48.68</td>
+<td align="right">68.0</td>
+<td align="right">94</td>
+<td align="right">90</td>
+<td align="right">4.7</td>
+</tr>
+<tr>
+<td>Reinosa</td>
+<td>ES</td>
+<td>09-02-2018</td>
+<td align="right">43.0</td>
+<td align="right">-4.14</td>
+<td align="right">78.8</td>
+<td align="right">54</td>
+<td align="right">0</td>
+<td align="right">8.05</td>
+</tr>
+<tr>
+<td>Ukiah</td>
+<td>US</td>
+<td>09-02-2018</td>
+<td align="right">39.15</td>
+<td align="right">-123.21</td>
+<td align="right">53.96</td>
+<td align="right">77</td>
+<td align="right">1</td>
+<td align="right">2.64</td>
+</tr>
+<tr>
+<td>Novoagansk</td>
+<td>RU</td>
+<td>09-02-2018</td>
+<td align="right">61.94</td>
+<td align="right">76.66</td>
+<td align="right">51.8</td>
+<td align="right">77</td>
+<td align="right">76</td>
+<td align="right">5.21</td>
+</tr>
+<tr>
+<td>Karachi</td>
+<td>PK</td>
+<td>09-02-2018</td>
+<td align="right">24.87</td>
+<td align="right">67.03</td>
+<td align="right">82.4</td>
+<td align="right">69</td>
+<td align="right">75</td>
+<td align="right">11.41</td>
+</tr>
+<tr>
+<td>Tuni</td>
+<td>BO</td>
+<td>09-02-2018</td>
+<td align="right">-16.67</td>
+<td align="right">-68.14</td>
+<td align="right">41.0</td>
+<td align="right">10</td>
+<td align="right">0</td>
+<td align="right">8.05</td>
+</tr>
+<tr>
+<td>Poitiers</td>
+<td>FR</td>
+<td>09-02-2018</td>
+<td align="right">46.58</td>
+<td align="right">0.34</td>
+<td align="right">75.2</td>
+<td align="right">31</td>
+<td align="right">0</td>
+<td align="right">12.75</td>
+</tr>
+<tr>
+<td>Mokolo</td>
+<td>CM</td>
+<td>09-02-2018</td>
+<td align="right">10.74</td>
+<td align="right">13.8</td>
+<td align="right">86.0</td>
+<td align="right">70</td>
+<td align="right">40</td>
+<td align="right">2.24</td>
+</tr>
+<tr>
+<td>Salalah</td>
+<td>OM</td>
+<td>09-02-2018</td>
+<td align="right">17.01</td>
+<td align="right">54.1</td>
+<td align="right">78.8</td>
+<td align="right">83</td>
+<td align="right">75</td>
+<td align="right">10.29</td>
+</tr>
+<tr>
+<td>Haileybury</td>
+<td>CA</td>
+<td>09-02-2018</td>
+<td align="right">47.44</td>
+<td align="right">-79.64</td>
+<td align="right">69.8</td>
+<td align="right">100</td>
+<td align="right">90</td>
+<td align="right">3.36</td>
+</tr>
+<tr>
+<td>North Platte</td>
+<td>US</td>
+<td>09-02-2018</td>
+<td align="right">41.12</td>
+<td align="right">-100.77</td>
+<td align="right">68.0</td>
+<td align="right">89</td>
+<td align="right">90</td>
+<td align="right">5.55</td>
+</tr>
+<tr>
+<td>Molango</td>
+<td>MX</td>
+<td>09-02-2018</td>
+<td align="right">20.79</td>
+<td align="right">-98.73</td>
+<td align="right">68.72</td>
+<td align="right">87</td>
+<td align="right">56</td>
+<td align="right">1.52</td>
+</tr>
+<tr>
+<td>Linjiang</td>
+<td>CN</td>
+<td>09-02-2018</td>
+<td align="right">41.81</td>
+<td align="right">126.91</td>
+<td align="right">62.06</td>
+<td align="right">81</td>
+<td align="right">100</td>
+<td align="right">7.45</td>
+</tr>
+<tr>
+<td>Dikson</td>
+<td>RU</td>
+<td>09-02-2018</td>
+<td align="right">73.51</td>
+<td align="right">80.55</td>
+<td align="right">41.54</td>
+<td align="right">100</td>
+<td align="right">68</td>
+<td align="right">16.62</td>
+</tr>
+<tr>
+<td>Longyan</td>
+<td>CN</td>
+<td>09-02-2018</td>
+<td align="right">25.1</td>
+<td align="right">117.03</td>
+<td align="right">73.4</td>
+<td align="right">88</td>
+<td align="right">48</td>
+<td align="right">1.74</td>
+</tr>
+<tr>
+<td>Diffa</td>
+<td>NE</td>
+<td>09-02-2018</td>
+<td align="right">13.32</td>
+<td align="right">12.61</td>
+<td align="right">85.82</td>
+<td align="right">73</td>
+<td align="right">92</td>
+<td align="right">4.54</td>
+</tr>
+<tr>
+<td>Karratha</td>
+<td>AU</td>
+<td>09-02-2018</td>
+<td align="right">-20.74</td>
+<td align="right">116.85</td>
+<td align="right">62.78</td>
+<td align="right">45</td>
+<td align="right">0</td>
+<td align="right">7.45</td>
+</tr>
+<tr>
+<td>New Norfolk</td>
+<td>AU</td>
+<td>09-02-2018</td>
+<td align="right">-42.78</td>
+<td align="right">147.06</td>
+<td align="right">39.2</td>
+<td align="right">80</td>
+<td align="right">20</td>
+<td align="right">4.7</td>
+</tr>
+<tr>
+<td>Okoneshnikovo</td>
+<td>RU</td>
+<td>09-02-2018</td>
+<td align="right">54.84</td>
+<td align="right">75.08</td>
+<td align="right">52.97</td>
+<td align="right">70</td>
+<td align="right">68</td>
+<td align="right">15.5</td>
+</tr>
+<tr>
+<td>Paracuru</td>
+<td>BR</td>
+<td>09-02-2018</td>
+<td align="right">-3.41</td>
+<td align="right">-39.03</td>
+<td align="right">84.2</td>
+<td align="right">62</td>
+<td align="right">75</td>
+<td align="right">25.28</td>
+</tr>
+<tr>
+<td>Novoagansk</td>
+<td>RU</td>
+<td>09-02-2018</td>
+<td align="right">61.94</td>
+<td align="right">76.66</td>
+<td align="right">51.8</td>
+<td align="right">77</td>
+<td align="right">76</td>
+<td align="right">5.21</td>
+</tr>
+<tr>
+<td>Ust-Nera</td>
+<td>RU</td>
+<td>09-02-2018</td>
+<td align="right">64.57</td>
+<td align="right">143.24</td>
+<td align="right">41.9</td>
+<td align="right">97</td>
+<td align="right">88</td>
+<td align="right">1.97</td>
+</tr>
+<tr>
+<td>Aklavik</td>
+<td>CA</td>
+<td>09-02-2018</td>
+<td align="right">68.22</td>
+<td align="right">-135.01</td>
+<td align="right">32.0</td>
+<td align="right">89</td>
+<td align="right">75</td>
+<td align="right">12.75</td>
+</tr>
+<tr>
+<td>Netrakona</td>
+<td>BD</td>
+<td>09-02-2018</td>
+<td align="right">24.88</td>
+<td align="right">90.72</td>
+<td align="right">77.0</td>
+<td align="right">100</td>
+<td align="right">92</td>
+<td align="right">5.66</td>
+</tr>
+<tr>
+<td>Howard Springs</td>
+<td>AU</td>
+<td>09-02-2018</td>
+<td align="right">-12.5</td>
+<td align="right">131.05</td>
+<td align="right">77.0</td>
+<td align="right">73</td>
+<td align="right">0</td>
+<td align="right">2.24</td>
+</tr>
+<tr>
+<td>Jalu</td>
+<td>LY</td>
+<td>09-02-2018</td>
+<td align="right">29.03</td>
+<td align="right">21.55</td>
+<td align="right">95.81</td>
+<td align="right">26</td>
+<td align="right">0</td>
+<td align="right">9.24</td>
+</tr>
+<tr>
+<td>Mantua</td>
+<td>IT</td>
+<td>09-02-2018</td>
+<td align="right">45.16</td>
+<td align="right">10.79</td>
+<td align="right">71.6</td>
+<td align="right">68</td>
+<td align="right">75</td>
+<td align="right">4.7</td>
+</tr>
+<tr>
+<td>Sorong</td>
+<td>ID</td>
+<td>09-02-2018</td>
+<td align="right">-0.86</td>
+<td align="right">131.25</td>
+<td align="right">79.88</td>
+<td align="right">100</td>
+<td align="right">68</td>
+<td align="right">12.59</td>
+</tr>
+<tr>
+<td>Camopi</td>
+<td>GF</td>
+<td>09-02-2018</td>
+<td align="right">3.17</td>
+<td align="right">-52.33</td>
+<td align="right">86.36</td>
+<td align="right">69</td>
+<td align="right">44</td>
+<td align="right">2.98</td>
+</tr>
+<tr>
+<td>Santa Isabel do Rio Negro</td>
+<td>BR</td>
+<td>09-02-2018</td>
+<td align="right">-0.41</td>
+<td align="right">-65.02</td>
+<td align="right">83.39</td>
+<td align="right">82</td>
+<td align="right">48</td>
+<td align="right">5.1</td>
+</tr>
+<tr>
+<td>Nouakchott</td>
+<td>MR</td>
+<td>09-02-2018</td>
+<td align="right">18.08</td>
+<td align="right">-15.98</td>
+<td align="right">77.9</td>
+<td align="right">100</td>
+<td align="right">0</td>
+<td align="right">17.74</td>
+</tr>
+<tr>
+<td>Sangolqui</td>
+<td>EC</td>
+<td>09-02-2018</td>
+<td align="right">-0.33</td>
+<td align="right">-78.45</td>
+<td align="right">53.6</td>
+<td align="right">87</td>
+<td align="right">75</td>
+<td align="right">16.11</td>
+</tr>
+<tr>
+<td>Haines Junction</td>
+<td>CA</td>
+<td>09-02-2018</td>
+<td align="right">60.75</td>
+<td align="right">-137.51</td>
+<td align="right">33.44</td>
+<td align="right">96</td>
+<td align="right">88</td>
+<td align="right">1.97</td>
+</tr>
+<tr>
+<td>Port Jervis</td>
+<td>US</td>
+<td>09-02-2018</td>
+<td align="right">41.38</td>
+<td align="right">-74.69</td>
+<td align="right">69.98</td>
+<td align="right">93</td>
+<td align="right">90</td>
+<td align="right">3.2</td>
+</tr>
+<tr>
+<td>Zhangye</td>
+<td>CN</td>
+<td>09-02-2018</td>
+<td align="right">38.94</td>
+<td align="right">100.46</td>
+<td align="right">56.3</td>
+<td align="right">85</td>
+<td align="right">0</td>
+<td align="right">2.42</td>
+</tr>
+<tr>
+<td>Port Hedland</td>
+<td>AU</td>
+<td>09-02-2018</td>
+<td align="right">-20.31</td>
+<td align="right">118.58</td>
+<td align="right">64.4</td>
+<td align="right">45</td>
+<td align="right">0</td>
+<td align="right">3.36</td>
+</tr>
+<tr>
+<td>Dutse</td>
+<td>NG</td>
+<td>09-02-2018</td>
+<td align="right">11.76</td>
+<td align="right">9.34</td>
+<td align="right">84.47</td>
+<td align="right">81</td>
+<td align="right">36</td>
+<td align="right">4.09</td>
+</tr>
+<tr>
+<td>Calabozo</td>
+<td>VE</td>
+<td>09-02-2018</td>
+<td align="right">8.92</td>
+<td align="right">-67.43</td>
+<td align="right">89.78</td>
+<td align="right">64</td>
+<td align="right">8</td>
+<td align="right">12.59</td>
+</tr>
+<tr>
+<td>Mirabad</td>
+<td>IR</td>
+<td>09-02-2018</td>
+<td align="right">28.27</td>
+<td align="right">61.33</td>
+<td align="right">75.02</td>
+<td align="right">12</td>
+<td align="right">0</td>
+<td align="right">8.23</td>
+</tr>
+<tr>
+<td>Tabasco</td>
+<td>MX</td>
+<td>09-02-2018</td>
+<td align="right">21.87</td>
+<td align="right">-102.91</td>
+<td align="right">59.0</td>
+<td align="right">93</td>
+<td align="right">75</td>
+<td align="right">4.7</td>
+</tr>
+<tr>
+<td>Chuguyevka</td>
+<td>RU</td>
+<td>09-02-2018</td>
+<td align="right">44.17</td>
+<td align="right">133.87</td>
+<td align="right">56.75</td>
+<td align="right">81</td>
+<td align="right">88</td>
+<td align="right">3.09</td>
+</tr>
+<tr>
+<td>Uarini</td>
+<td>BR</td>
+<td>09-02-2018</td>
+<td align="right">-2.98</td>
+<td align="right">-65.16</td>
+<td align="right">84.2</td>
+<td align="right">79</td>
+<td align="right">20</td>
+<td align="right">5.82</td>
+</tr>
+<tr>
+<td>Dharampuri</td>
+<td>IN</td>
+<td>09-02-2018</td>
+<td align="right">22.17</td>
+<td align="right">75.35</td>
+<td align="right">75.65</td>
+<td align="right">95</td>
+<td align="right">80</td>
+<td align="right">8.01</td>
+</tr>
+<tr>
+<td>Kempsey</td>
+<td>AU</td>
+<td>09-02-2018</td>
+<td align="right">-31.08</td>
+<td align="right">152.84</td>
+<td align="right">58.55</td>
+<td align="right">90</td>
+<td align="right">100</td>
+<td align="right">7.0</td>
+</tr>
+<tr>
+<td>Angoche</td>
+<td>MZ</td>
+<td>09-02-2018</td>
+<td align="right">-16.23</td>
+<td align="right">39.91</td>
+<td align="right">79.16</td>
+<td align="right">96</td>
+<td align="right">0</td>
+<td align="right">7.11</td>
+</tr>
+<tr>
+<td>Baherden</td>
+<td>TM</td>
+<td>09-02-2018</td>
+<td align="right">38.44</td>
+<td align="right">57.43</td>
+<td align="right">73.31</td>
+<td align="right">25</td>
+<td align="right">0</td>
+<td align="right">8.46</td>
+</tr>
+<tr>
+<td>Kaniama</td>
+<td>CD</td>
+<td>09-02-2018</td>
+<td align="right">-7.57</td>
+<td align="right">24.18</td>
+<td align="right">92.93</td>
+<td align="right">20</td>
+<td align="right">12</td>
+<td align="right">3.42</td>
+</tr>
+<tr>
+<td>Sao Felix do Xingu</td>
+<td>BR</td>
+<td>09-02-2018</td>
+<td align="right">-6.64</td>
+<td align="right">-51.99</td>
+<td align="right">95.54</td>
+<td align="right">33</td>
+<td align="right">0</td>
+<td align="right">4.09</td>
+</tr>
+<tr>
+<td>Morondava</td>
+<td>MG</td>
+<td>09-02-2018</td>
+<td align="right">-20.3</td>
+<td align="right">44.28</td>
+<td align="right">80.69</td>
+<td align="right">62</td>
+<td align="right">0</td>
+<td align="right">5.1</td>
+</tr>
+<tr>
+<td>Bom Jesus</td>
+<td>BR</td>
+<td>09-02-2018</td>
+<td align="right">-9.08</td>
+<td align="right">-44.36</td>
+<td align="right">92.66</td>
+<td align="right">32</td>
+<td align="right">0</td>
+<td align="right">10.13</td>
+</tr>
+<tr>
+<td>Nanguneri</td>
+<td>IN</td>
+<td>09-02-2018</td>
+<td align="right">8.49</td>
+<td align="right">77.66</td>
+<td align="right">78.71</td>
+<td align="right">72</td>
+<td align="right">36</td>
+<td align="right">7.0</td>
+</tr>
+<tr>
+<td>Walla Walla</td>
+<td>US</td>
+<td>09-02-2018</td>
+<td align="right">46.06</td>
+<td align="right">-118.33</td>
+<td align="right">57.02</td>
+<td align="right">57</td>
+<td align="right">1</td>
+<td align="right">5.82</td>
+</tr>
+<tr>
+<td>Gaoua</td>
+<td>BF</td>
+<td>09-02-2018</td>
+<td align="right">10.33</td>
+<td align="right">-3.18</td>
+<td align="right">81.05</td>
+<td align="right">82</td>
+<td align="right">76</td>
+<td align="right">10.47</td>
+</tr>
+<tr>
+<td>Kichmengskiy Gorodok</td>
+<td>RU</td>
+<td>09-02-2018</td>
+<td align="right">59.99</td>
+<td align="right">45.81</td>
+<td align="right">60.89</td>
+<td align="right">82</td>
+<td align="right">32</td>
+<td align="right">3.2</td>
+</tr>
+<tr>
+<td>Kudat</td>
+<td>MY</td>
+<td>09-02-2018</td>
+<td align="right">6.89</td>
+<td align="right">116.84</td>
+<td align="right">80.6</td>
+<td align="right">83</td>
+<td align="right">75</td>
+<td align="right">9.17</td>
+</tr>
+<tr>
+<td>Northam</td>
+<td>GB</td>
+<td>09-02-2018</td>
+<td align="right">51.04</td>
+<td align="right">-4.21</td>
+<td align="right">69.8</td>
+<td align="right">63</td>
+<td align="right">20</td>
+<td align="right">8.05</td>
+</tr>
+<tr>
+<td>Tokoroa</td>
+<td>NZ</td>
+<td>09-02-2018</td>
+<td align="right">-38.22</td>
+<td align="right">175.87</td>
+<td align="right">45.95</td>
+<td align="right">98</td>
+<td align="right">88</td>
+<td align="right">9.24</td>
+</tr>
+<tr>
+<td>Khurai</td>
+<td>IN</td>
+<td>09-02-2018</td>
+<td align="right">24.04</td>
+<td align="right">78.33</td>
+<td align="right">72.95</td>
+<td align="right">98</td>
+<td align="right">92</td>
+<td align="right">12.15</td>
+</tr>
+<tr>
+<td>Butaritari</td>
+<td>KI</td>
+<td>09-02-2018</td>
+<td align="right">3.07</td>
+<td align="right">172.79</td>
+<td align="right">78.53</td>
+<td align="right">100</td>
+<td align="right">76</td>
+<td align="right">2.19</td>
+</tr>
+<tr>
+<td>Takefu</td>
+<td>JP</td>
+<td>09-02-2018</td>
+<td align="right">35.9</td>
+<td align="right">136.17</td>
+<td align="right">71.6</td>
+<td align="right">94</td>
+<td align="right">75</td>
+<td align="right">3.36</td>
+</tr>
+<tr>
+<td>Shelburne</td>
+<td>CA</td>
+<td>09-02-2018</td>
+<td align="right">44.08</td>
+<td align="right">-80.2</td>
+<td align="right">77.0</td>
+<td align="right">100</td>
+<td align="right">1</td>
+<td align="right">5.82</td>
+</tr>
+<tr>
+<td>Cubuk</td>
+<td>TR</td>
+<td>09-02-2018</td>
+<td align="right">40.24</td>
+<td align="right">33.03</td>
+<td align="right">91.4</td>
+<td align="right">21</td>
+<td align="right">20</td>
+<td align="right">10.29</td>
+</tr>
+<tr>
+<td>Warwick</td>
+<td>US</td>
+<td>09-02-2018</td>
+<td align="right">41.7</td>
+<td align="right">-71.42</td>
+<td align="right">73.04</td>
+<td align="right">81</td>
+<td align="right">90</td>
+<td align="right">4.7</td>
+</tr>
+<tr>
+<td>Bandar-e Lengeh</td>
+<td>IR</td>
+<td>09-02-2018</td>
+<td align="right">26.56</td>
+<td align="right">54.88</td>
+<td align="right">96.8</td>
+<td align="right">60</td>
+<td align="right">0</td>
+<td align="right">9.17</td>
+</tr>
+<tr>
+<td>Berdigestyakh</td>
+<td>RU</td>
+<td>09-02-2018</td>
+<td align="right">62.1</td>
+<td align="right">126.7</td>
+<td align="right">38.66</td>
+<td align="right">78</td>
+<td align="right">0</td>
+<td align="right">6.44</td>
+</tr>
+<tr>
+<td>Springdale</td>
+<td>US</td>
+<td>09-02-2018</td>
+<td align="right">36.19</td>
+<td align="right">-94.13</td>
+<td align="right">73.94</td>
+<td align="right">94</td>
+<td align="right">5</td>
+<td align="right">5.82</td>
+</tr>
+<tr>
+<td>Dunbar</td>
+<td>US</td>
+<td>09-02-2018</td>
+<td align="right">45.65</td>
+<td align="right">-88.17</td>
+<td align="right">68.0</td>
+<td align="right">93</td>
+<td align="right">75</td>
+<td align="right">3.42</td>
+</tr>
+<tr>
+<td>Zaozerne</td>
+<td>UA</td>
+<td>09-02-2018</td>
+<td align="right">51.37</td>
+<td align="right">23.94</td>
+<td align="right">77.45</td>
+<td align="right">61</td>
+<td align="right">0</td>
+<td align="right">8.57</td>
+</tr>
+<tr>
+<td>Wabag</td>
+<td>PG</td>
+<td>09-02-2018</td>
+<td align="right">-5.48</td>
+<td align="right">143.7</td>
+<td align="right">52.88</td>
+<td align="right">98</td>
+<td align="right">92</td>
+<td align="right">2.19</td>
+</tr>
+<tr>
+<td>Mangan</td>
+<td>IN</td>
+<td>09-02-2018</td>
+<td align="right">27.5</td>
+<td align="right">88.54</td>
+<td align="right">47.48</td>
+<td align="right">98</td>
+<td align="right">92</td>
+<td align="right">0.96</td>
+</tr>
+<tr>
+<td>Beaumont</td>
+<td>US</td>
+<td>09-02-2018</td>
+<td align="right">30.09</td>
+<td align="right">-94.1</td>
+<td align="right">78.08</td>
+<td align="right">87</td>
+<td align="right">90</td>
+<td align="right">8.05</td>
+</tr>
+<tr>
+<td>Wuhu</td>
+<td>CN</td>
+<td>09-02-2018</td>
+<td align="right">31.35</td>
+<td align="right">118.43</td>
+<td align="right">79.34</td>
+<td align="right">93</td>
+<td align="right">76</td>
+<td align="right">2.64</td>
+</tr>
+<tr>
+<td>Raton</td>
+<td>US</td>
+<td>09-02-2018</td>
+<td align="right">36.9</td>
+<td align="right">-104.44</td>
+<td align="right">59.0</td>
+<td align="right">89</td>
+<td align="right">75</td>
+<td align="right">9.17</td>
+</tr>
+<tr>
+<td>Mackenzie</td>
+<td>CA</td>
+<td>09-02-2018</td>
+<td align="right">55.34</td>
+<td align="right">-123.09</td>
+<td align="right">44.6</td>
+<td align="right">93</td>
+<td align="right">90</td>
+<td align="right">5.82</td>
+</tr>
+<tr>
+<td>Tupik</td>
+<td>RU</td>
+<td>09-02-2018</td>
+<td align="right">54.43</td>
+<td align="right">119.94</td>
+<td align="right">51.44</td>
+<td align="right">100</td>
+<td align="right">92</td>
+<td align="right">7.23</td>
+</tr>
+<tr>
+<td>Sampang</td>
+<td>ID</td>
+<td>09-02-2018</td>
+<td align="right">-7.54</td>
+<td align="right">109.46</td>
+<td align="right">77.09</td>
+<td align="right">92</td>
+<td align="right">92</td>
+<td align="right">13.04</td>
+</tr>
+<tr>
+<td>Wexford</td>
+<td>US</td>
+<td>09-02-2018</td>
+<td align="right">40.63</td>
+<td align="right">-80.06</td>
+<td align="right">75.92</td>
+<td align="right">93</td>
+<td align="right">75</td>
+<td align="right">4.7</td>
+</tr>
+<tr>
+<td>Zaysan</td>
+<td>KZ</td>
+<td>09-02-2018</td>
+<td align="right">47.47</td>
+<td align="right">84.87</td>
+<td align="right">43.07</td>
+<td align="right">94</td>
+<td align="right">88</td>
+<td align="right">5.77</td>
+</tr>
+<tr>
+<td>Gawler</td>
+<td>AU</td>
+<td>09-02-2018</td>
+<td align="right">-34.6</td>
+<td align="right">138.75</td>
+<td align="right">44.6</td>
+<td align="right">81</td>
+<td align="right">0</td>
+<td align="right">5.82</td>
+</tr>
+<tr>
+<td>Inongo</td>
+<td>CD</td>
+<td>09-02-2018</td>
+<td align="right">-1.93</td>
+<td align="right">18.29</td>
+<td align="right">85.01</td>
+<td align="right">63</td>
+<td align="right">8</td>
+<td align="right">3.42</td>
+</tr>
+<tr>
+<td>Bolshevik</td>
+<td>BY</td>
+<td>09-02-2018</td>
+<td align="right">54.01</td>
+<td align="right">27.57</td>
+<td align="right">75.2</td>
+<td align="right">44</td>
+<td align="right">0</td>
+<td align="right">11.18</td>
+</tr>
+<tr>
+<td>Le Chambon-Feugerolles</td>
+<td>FR</td>
+<td>09-02-2018</td>
+<td align="right">45.4</td>
+<td align="right">4.32</td>
+<td align="right">73.4</td>
+<td align="right">40</td>
+<td align="right">90</td>
+<td align="right">9.17</td>
+</tr>
+<tr>
+<td>Velikiy Novgorod</td>
+<td>RU</td>
+<td>09-02-2018</td>
+<td align="right">58.52</td>
+<td align="right">31.28</td>
+<td align="right">67.91</td>
+<td align="right">80</td>
+<td align="right">20</td>
+<td align="right">3.09</td>
+</tr>
+<tr>
+<td>Tupelo</td>
+<td>US</td>
+<td>09-02-2018</td>
+<td align="right">34.26</td>
+<td align="right">-88.7</td>
+<td align="right">75.92</td>
+<td align="right">81</td>
+<td align="right">1</td>
+<td align="right">5.82</td>
+</tr>
+<tr>
+<td>Badarpur</td>
+<td>IN</td>
+<td>09-02-2018</td>
+<td align="right">24.87</td>
+<td align="right">92.56</td>
+<td align="right">74.12</td>
+<td align="right">98</td>
+<td align="right">44</td>
+<td align="right">4.43</td>
+</tr>
+<tr>
+<td>Izberbash</td>
+<td>RU</td>
+<td>09-02-2018</td>
+<td align="right">42.57</td>
+<td align="right">47.86</td>
+<td align="right">78.8</td>
+<td align="right">65</td>
+<td align="right">44</td>
+<td align="right">24.61</td>
+</tr>
+<tr>
+<td>Wodonga</td>
+<td>AU</td>
+<td>09-02-2018</td>
+<td align="right">-36.12</td>
+<td align="right">146.89</td>
+<td align="right">46.4</td>
+<td align="right">65</td>
+<td align="right">40</td>
+<td align="right">4.7</td>
+</tr>
+<tr>
+<td>Mokshan</td>
+<td>RU</td>
+<td>09-02-2018</td>
+<td align="right">53.44</td>
+<td align="right">44.61</td>
+<td align="right">77.36</td>
+<td align="right">41</td>
+<td align="right">80</td>
+<td align="right">4.43</td>
+</tr>
+<tr>
+<td>Ikwiriri</td>
+<td>TZ</td>
+<td>09-02-2018</td>
+<td align="right">-7.96</td>
+<td align="right">38.99</td>
+<td align="right">81.5</td>
+<td align="right">46</td>
+<td align="right">0</td>
+<td align="right">7.67</td>
+</tr>
+<tr>
+<td>Iskateley</td>
+<td>RU</td>
+<td>09-02-2018</td>
+<td align="right">67.68</td>
+<td align="right">53.15</td>
+<td align="right">61.88</td>
+<td align="right">71</td>
+<td align="right">12</td>
+<td align="right">12.48</td>
+</tr>
+<tr>
+<td>Kirakira</td>
+<td>SB</td>
+<td>09-02-2018</td>
+<td align="right">-10.46</td>
+<td align="right">161.92</td>
+<td align="right">80.96</td>
+<td align="right">100</td>
+<td align="right">92</td>
+<td align="right">11.48</td>
+</tr>
+<tr>
+<td>Rodrigues Alves</td>
+<td>BR</td>
+<td>09-02-2018</td>
+<td align="right">-7.74</td>
+<td align="right">-72.65</td>
+<td align="right">78.8</td>
+<td align="right">83</td>
+<td align="right">0</td>
+<td align="right">3.36</td>
+</tr>
+<tr>
+<td>San Benito</td>
+<td>CO</td>
+<td>09-02-2018</td>
+<td align="right">6.13</td>
+<td align="right">-73.51</td>
+<td align="right">68.99</td>
+<td align="right">85</td>
+<td align="right">64</td>
+<td align="right">2.64</td>
+</tr>
+<tr>
+<td>Lower Hutt</td>
+<td>NZ</td>
+<td>09-02-2018</td>
+<td align="right">-41.21</td>
+<td align="right">174.91</td>
+<td align="right">53.6</td>
+<td align="right">81</td>
+<td align="right">88</td>
+<td align="right">12.75</td>
+</tr>
+<tr>
+<td>Kunnamkulam</td>
+<td>IN</td>
+<td>09-02-2018</td>
+<td align="right">10.65</td>
+<td align="right">76.07</td>
+<td align="right">82.4</td>
+<td align="right">78</td>
+<td align="right">75</td>
+<td align="right">8.05</td>
+</tr>
+<tr>
+<td>Cap-aux-Meules</td>
+<td>CA</td>
+<td>09-02-2018</td>
+<td align="right">47.38</td>
+<td align="right">-61.86</td>
+<td align="right">66.2</td>
+<td align="right">72</td>
+<td align="right">75</td>
+<td align="right">16.11</td>
+</tr>
+<tr>
+<td>Nizhniy Baskunchak</td>
+<td>RU</td>
+<td>09-02-2018</td>
+<td align="right">48.22</td>
+<td align="right">46.83</td>
+<td align="right">83.75</td>
+<td align="right">28</td>
+<td align="right">44</td>
+<td align="right">11.7</td>
+</tr>
+<tr>
+<td>Puerto Leguizamo</td>
+<td>CO</td>
+<td>09-02-2018</td>
+<td align="right">-0.19</td>
+<td align="right">-74.78</td>
+<td align="right">83.57</td>
+<td align="right">81</td>
+<td align="right">44</td>
+<td align="right">3.42</td>
+</tr>
+<tr>
+<td>Tikrit</td>
+<td>IQ</td>
+<td>09-02-2018</td>
+<td align="right">34.62</td>
+<td align="right">43.68</td>
+<td align="right">108.68</td>
+<td align="right">8</td>
+<td align="right">0</td>
+<td align="right">10.13</td>
+</tr>
+<tr>
+<td>Shentala</td>
+<td>RU</td>
+<td>09-02-2018</td>
+<td align="right">54.44</td>
+<td align="right">51.46</td>
+<td align="right">66.38</td>
+<td align="right">62</td>
+<td align="right">0</td>
+<td align="right">7.0</td>
+</tr>
+<tr>
+<td>Asosa</td>
+<td>ET</td>
+<td>09-02-2018</td>
+<td align="right">10.07</td>
+<td align="right">34.53</td>
+<td align="right">74.93</td>
+<td align="right">76</td>
+<td align="right">92</td>
+<td align="right">4.21</td>
+</tr>
+<tr>
+<td>Boyuibe</td>
+<td>BO</td>
+<td>09-02-2018</td>
+<td align="right">-20.43</td>
+<td align="right">-63.28</td>
+<td align="right">55.4</td>
+<td align="right">58</td>
+<td align="right">0</td>
+<td align="right">17.85</td>
+</tr>
+<tr>
+<td>Seguin</td>
+<td>US</td>
+<td>09-02-2018</td>
+<td align="right">29.57</td>
+<td align="right">-97.96</td>
+<td align="right">78.98</td>
+<td align="right">94</td>
+<td align="right">75</td>
+<td align="right">4.54</td>
+</tr>
+<tr>
+<td>Kohima</td>
+<td>IN</td>
+<td>09-02-2018</td>
+<td align="right">25.66</td>
+<td align="right">94.1</td>
+<td align="right">69.35</td>
+<td align="right">98</td>
+<td align="right">80</td>
+<td align="right">1.41</td>
+</tr>
+<tr>
+<td>Demba</td>
+<td>CD</td>
+<td>09-02-2018</td>
+<td align="right">-5.47</td>
+<td align="right">22.27</td>
+<td align="right">88.7</td>
+<td align="right">44</td>
+<td align="right">12</td>
+<td align="right">2.53</td>
+</tr>
+<tr>
+<td>Fillmore</td>
+<td>US</td>
+<td>09-02-2018</td>
+<td align="right">34.4</td>
+<td align="right">-118.91</td>
+<td align="right">68.0</td>
+<td align="right">67</td>
+<td align="right">90</td>
+<td align="right">3.36</td>
+</tr>
+<tr>
+<td>Bourail</td>
+<td>NC</td>
+<td>09-02-2018</td>
+<td align="right">-21.57</td>
+<td align="right">165.5</td>
+<td align="right">61.7</td>
+<td align="right">100</td>
+<td align="right">80</td>
+<td align="right">2.75</td>
+</tr>
+<tr>
+<td>Kutum</td>
+<td>SD</td>
+<td>09-02-2018</td>
+<td align="right">14.2</td>
+<td align="right">24.66</td>
+<td align="right">86.99</td>
+<td align="right">48</td>
+<td align="right">48</td>
+<td align="right">10.69</td>
+</tr>
+<tr>
+<td>Kudahuvadhoo</td>
+<td>MV</td>
+<td>09-02-2018</td>
+<td align="right">2.67</td>
+<td align="right">72.89</td>
+<td align="right">84.38</td>
+<td align="right">100</td>
+<td align="right">0</td>
+<td align="right">5.55</td>
+</tr>
+<tr>
+<td>Homer</td>
+<td>US</td>
+<td>09-02-2018</td>
+<td align="right">59.64</td>
+<td align="right">-151.54</td>
+<td align="right">39.92</td>
+<td align="right">89</td>
+<td align="right">1</td>
+<td align="right">3.36</td>
+</tr>
+<tr>
+<td>Crailsheim</td>
+<td>DE</td>
+<td>09-02-2018</td>
+<td align="right">49.14</td>
+<td align="right">10.07</td>
+<td align="right">60.98</td>
+<td align="right">100</td>
+<td align="right">90</td>
+<td align="right">8.05</td>
+</tr>
+<tr>
+<td>Svarstad</td>
+<td>NO</td>
+<td>09-02-2018</td>
+<td align="right">59.4</td>
+<td align="right">9.97</td>
+<td align="right">64.4</td>
+<td align="right">63</td>
+<td align="right">0</td>
+<td align="right">14.99</td>
+</tr>
+<tr>
+<td>Ilovlya</td>
+<td>RU</td>
+<td>09-02-2018</td>
+<td align="right">49.31</td>
+<td align="right">43.98</td>
+<td align="right">84.2</td>
+<td align="right">14</td>
+<td align="right">0</td>
+<td align="right">17.9</td>
+</tr>
+<tr>
+<td>Manjhanpur</td>
+<td>IN</td>
+<td>09-02-2018</td>
+<td align="right">25.53</td>
+<td align="right">81.37</td>
+<td align="right">79.61</td>
+<td align="right">92</td>
+<td align="right">44</td>
+<td align="right">5.1</td>
+</tr>
+<tr>
+<td>Batsfjord</td>
+<td>NO</td>
+<td>09-02-2018</td>
+<td align="right">70.63</td>
+<td align="right">29.72</td>
+<td align="right">55.85</td>
+<td align="right">82</td>
+<td align="right">56</td>
+<td align="right">6.44</td>
+</tr>
+<tr>
+<td>Mairana</td>
+<td>BO</td>
+<td>09-02-2018</td>
+<td align="right">-18.12</td>
+<td align="right">-63.96</td>
+<td align="right">54.68</td>
+<td align="right">78</td>
+<td align="right">80</td>
+<td align="right">3.09</td>
+</tr>
+<tr>
+<td>Liuli</td>
+<td>TZ</td>
+<td>09-02-2018</td>
+<td align="right">-11.1</td>
+<td align="right">34.65</td>
+<td align="right">76.46</td>
+<td align="right">97</td>
+<td align="right">0</td>
+<td align="right">6.67</td>
+</tr>
+<tr>
+<td>Sijunjung</td>
+<td>ID</td>
+<td>09-02-2018</td>
+<td align="right">-0.69</td>
+<td align="right">100.95</td>
+<td align="right">69.62</td>
+<td align="right">82</td>
+<td align="right">68</td>
+<td align="right">1.97</td>
+</tr>
+<tr>
+<td>Pak Phanang</td>
+<td>TH</td>
+<td>09-02-2018</td>
+<td align="right">8.35</td>
+<td align="right">100.2</td>
+<td align="right">80.6</td>
+<td align="right">69</td>
+<td align="right">20</td>
+<td align="right">4.7</td>
+</tr>
+<tr>
+<td>Vila do Maio</td>
+<td>CV</td>
+<td>09-02-2018</td>
+<td align="right">15.13</td>
+<td align="right">-23.22</td>
+<td align="right">84.2</td>
+<td align="right">74</td>
+<td align="right">75</td>
+<td align="right">8.05</td>
+</tr>
+<tr>
+<td>Chernigovka</td>
+<td>RU</td>
+<td>09-02-2018</td>
+<td align="right">44.34</td>
+<td align="right">132.57</td>
+<td align="right">61.34</td>
+<td align="right">84</td>
+<td align="right">92</td>
+<td align="right">8.68</td>
+</tr>
+<tr>
+<td>Belle Glade</td>
+<td>US</td>
+<td>09-02-2018</td>
+<td align="right">26.68</td>
+<td align="right">-80.67</td>
+<td align="right">80.6</td>
+<td align="right">83</td>
+<td align="right">76</td>
+<td align="right">5.82</td>
+</tr>
+<tr>
+<td>Nioro</td>
+<td>GM</td>
+<td>09-02-2018</td>
+<td align="right">13.79</td>
+<td align="right">-15.05</td>
+<td align="right">87.35</td>
+<td align="right">81</td>
+<td align="right">32</td>
+<td align="right">9.46</td>
+</tr>
+<tr>
+<td>Khatanga</td>
+<td>RU</td>
+<td>09-02-2018</td>
+<td align="right">71.98</td>
+<td align="right">102.47</td>
+<td align="right">39.02</td>
+<td align="right">87</td>
+<td align="right">88</td>
+<td align="right">18.19</td>
+</tr>
+<tr>
+<td>Dinar</td>
+<td>TR</td>
+<td>09-02-2018</td>
+<td align="right">38.07</td>
+<td align="right">30.16</td>
+<td align="right">93.2</td>
+<td align="right">15</td>
+<td align="right">40</td>
+<td align="right">11.41</td>
+</tr>
+<tr>
+<td>Nizwa</td>
+<td>OM</td>
+<td>09-02-2018</td>
+<td align="right">22.93</td>
+<td align="right">57.53</td>
+<td align="right">91.22</td>
+<td align="right">15</td>
+<td align="right">0</td>
+<td align="right">4.09</td>
+</tr>
+<tr>
+<td>Nardaran</td>
+<td>AZ</td>
+<td>09-02-2018</td>
+<td align="right">40.56</td>
+<td align="right">50.01</td>
+<td align="right">86.0</td>
+<td align="right">30</td>
+<td align="right">0</td>
+<td align="right">11.41</td>
+</tr>
+<tr>
+<td>Bansang</td>
+<td>GM</td>
+<td>09-02-2018</td>
+<td align="right">13.44</td>
+<td align="right">-14.66</td>
+<td align="right">86.45</td>
+<td align="right">89</td>
+<td align="right">48</td>
+<td align="right">8.57</td>
+</tr>
+<tr>
+<td>Punta de Piedra</td>
+<td>VE</td>
+<td>09-02-2018</td>
+<td align="right">7.62</td>
+<td align="right">-71.49</td>
+<td align="right">81.59</td>
+<td align="right">72</td>
+<td align="right">0</td>
+<td align="right">3.65</td>
+</tr>
+<tr>
+<td>Borujerd</td>
+<td>IR</td>
+<td>09-02-2018</td>
+<td align="right">33.89</td>
+<td align="right">48.76</td>
+<td align="right">104.0</td>
+<td align="right">6</td>
+<td align="right">0</td>
+<td align="right">4.7</td>
+</tr>
+<tr>
+<td>Vredendal</td>
+<td>ZA</td>
+<td>09-02-2018</td>
+<td align="right">-31.68</td>
+<td align="right">18.49</td>
+<td align="right">53.51</td>
+<td align="right">92</td>
+<td align="right">92</td>
+<td align="right">8.01</td>
+</tr>
+<tr>
+<td>Humen</td>
+<td>CN</td>
+<td>09-02-2018</td>
+<td align="right">22.82</td>
+<td align="right">113.67</td>
+<td align="right">82.4</td>
+<td align="right">69</td>
+<td align="right">20</td>
+<td align="right">3.36</td>
+</tr>
+<tr>
+<td>Esna</td>
+<td>RO</td>
+<td>09-02-2018</td>
+<td align="right">45.2</td>
+<td align="right">27.57</td>
+<td align="right">91.49</td>
+<td align="right">27</td>
+<td align="right">0</td>
+<td align="right">12.26</td>
+</tr>
+<tr>
+<td>Wuxi</td>
+<td>CN</td>
+<td>09-02-2018</td>
+<td align="right">31.58</td>
+<td align="right">120.3</td>
+<td align="right">79.34</td>
+<td align="right">93</td>
+<td align="right">24</td>
+<td align="right">3.42</td>
+</tr>
+<tr>
+<td>Muborak</td>
+<td>UZ</td>
+<td>09-02-2018</td>
+<td align="right">39.25</td>
+<td align="right">65.15</td>
+<td align="right">74.03</td>
+<td align="right">20</td>
+<td align="right">0</td>
+<td align="right">20.2</td>
+</tr>
+<tr>
+<td>Yabelo</td>
+<td>ET</td>
+<td>09-02-2018</td>
+<td align="right">4.89</td>
+<td align="right">38.09</td>
+<td align="right">75.2</td>
+<td align="right">48</td>
+<td align="right">92</td>
+<td align="right">6.67</td>
+</tr>
+<tr>
+<td>Montelibano</td>
+<td>CO</td>
+<td>09-02-2018</td>
+<td align="right">7.98</td>
+<td align="right">-75.42</td>
+<td align="right">83.3</td>
+<td align="right">95</td>
+<td align="right">20</td>
+<td align="right">4.09</td>
+</tr>
+<tr>
+<td>Benghazi</td>
+<td>LY</td>
+<td>09-02-2018</td>
+<td align="right">32.12</td>
+<td align="right">20.07</td>
+<td align="right">82.4</td>
+<td align="right">96</td>
+<td align="right">0</td>
+<td align="right">15.28</td>
+</tr>
+<tr>
+<td>Temixco</td>
+<td>MX</td>
+<td>09-02-2018</td>
+<td align="right">18.85</td>
+<td align="right">-99.22</td>
+<td align="right">64.4</td>
+<td align="right">93</td>
+<td align="right">90</td>
+<td align="right">3.09</td>
+</tr>
+<tr>
+<td>Pryozerne</td>
+<td>UA</td>
+<td>09-02-2018</td>
+<td align="right">49.42</td>
+<td align="right">24.47</td>
+<td align="right">80.6</td>
+<td align="right">53</td>
+<td align="right">0</td>
+<td align="right">11.18</td>
+</tr>
+<tr>
+<td>Kasese</td>
+<td>UG</td>
+<td>09-02-2018</td>
+<td align="right">0.17</td>
+<td align="right">30.09</td>
+<td align="right">74.3</td>
+<td align="right">80</td>
+<td align="right">76</td>
+<td align="right">2.19</td>
+</tr>
+<tr>
+<td>San Ignacio</td>
+<td>CL</td>
+<td>09-02-2018</td>
+<td align="right">-36.8</td>
+<td align="right">-72.03</td>
+<td align="right">46.4</td>
+<td align="right">100</td>
+<td align="right">0</td>
+<td align="right">2.24</td>
+</tr>
+<tr>
+<td>Itarantim</td>
+<td>BR</td>
+<td>09-02-2018</td>
+<td align="right">-15.65</td>
+<td align="right">-40.06</td>
+<td align="right">77.54</td>
+<td align="right">67</td>
+<td align="right">12</td>
+<td align="right">5.1</td>
+</tr>
+<tr>
+<td>Bure</td>
+<td>NG</td>
+<td>09-02-2018</td>
+<td align="right">10.52</td>
+<td align="right">10.33</td>
+<td align="right">79.43</td>
+<td align="right">95</td>
+<td align="right">76</td>
+<td align="right">3.65</td>
+</tr>
+<tr>
+<td>Vila Velha</td>
+<td>BR</td>
+<td>09-02-2018</td>
+<td align="right">-3.71</td>
+<td align="right">-38.6</td>
+<td align="right">84.2</td>
+<td align="right">62</td>
+<td align="right">75</td>
+<td align="right">25.28</td>
+</tr>
+<tr>
+<td>Sajanan</td>
+<td>TN</td>
+<td>09-02-2018</td>
+<td align="right">37.06</td>
+<td align="right">9.24</td>
+<td align="right">84.2</td>
+<td align="right">51</td>
+<td align="right">20</td>
+<td align="right">13.87</td>
+</tr>
+<tr>
+<td>Ruteng</td>
+<td>ID</td>
+<td>09-02-2018</td>
+<td align="right">-8.61</td>
+<td align="right">120.46</td>
+<td align="right">65.66</td>
+<td align="right">92</td>
+<td align="right">20</td>
+<td align="right">2.98</td>
+</tr>
+<tr>
+<td>Hulyaypole</td>
+<td>UA</td>
+<td>09-02-2018</td>
+<td align="right">47.67</td>
+<td align="right">36.26</td>
+<td align="right">84.11</td>
+<td align="right">23</td>
+<td align="right">68</td>
+<td align="right">13.82</td>
+</tr>
+<tr>
+<td>Veraval</td>
+<td>FR</td>
+<td>09-02-2018</td>
+<td align="right">49.65</td>
+<td align="right">0.71</td>
+<td align="right">71.6</td>
+<td align="right">40</td>
+<td align="right">0</td>
+<td align="right">4.7</td>
+</tr>
+<tr>
+<td>Vicosa do Ceara</td>
+<td>BR</td>
+<td>09-02-2018</td>
+<td align="right">-3.56</td>
+<td align="right">-41.09</td>
+<td align="right">91.76</td>
+<td align="right">42</td>
+<td align="right">0</td>
+<td align="right">11.03</td>
+</tr>
+<tr>
+<td>Burnie</td>
+<td>AU</td>
+<td>09-02-2018</td>
+<td align="right">-41.05</td>
+<td align="right">145.91</td>
+<td align="right">48.65</td>
+<td align="right">100</td>
+<td align="right">12</td>
+<td align="right">12.48</td>
+</tr>
+<tr>
+<td>Babu</td>
+<td>CN</td>
+<td>09-02-2018</td>
+<td align="right">23.23</td>
+<td align="right">104.89</td>
+<td align="right">64.94</td>
+<td align="right">97</td>
+<td align="right">92</td>
+<td align="right">0.74</td>
+</tr>
+<tr>
+<td>Kalat</td>
+<td>PK</td>
+<td>09-02-2018</td>
+<td align="right">29.03</td>
+<td align="right">66.58</td>
+<td align="right">65.48</td>
+<td align="right">23</td>
+<td align="right">8</td>
+<td align="right">4.99</td>
+</tr>
+<tr>
+<td>Shadrinsk</td>
+<td>RU</td>
+<td>09-02-2018</td>
+<td align="right">56.09</td>
+<td align="right">63.63</td>
+<td align="right">54.23</td>
+<td align="right">65</td>
+<td align="right">8</td>
+<td align="right">4.43</td>
+</tr>
+<tr>
+<td>Nouadhibou</td>
+<td>MR</td>
+<td>09-02-2018</td>
+<td align="right">20.93</td>
+<td align="right">-17.03</td>
+<td align="right">77.0</td>
+<td align="right">69</td>
+<td align="right">0</td>
+<td align="right">20.8</td>
+</tr>
+<tr>
+<td>Aqtobe</td>
+<td>KZ</td>
+<td>09-02-2018</td>
+<td align="right">50.28</td>
+<td align="right">57.21</td>
+<td align="right">69.8</td>
+<td align="right">15</td>
+<td align="right">0</td>
+<td align="right">6.71</td>
+</tr>
+<tr>
+<td>Lazi</td>
+<td>HR</td>
+<td>09-02-2018</td>
+<td align="right">45.57</td>
+<td align="right">14.64</td>
+<td align="right">80.6</td>
+<td align="right">47</td>
+<td align="right">20</td>
+<td align="right">4.7</td>
+</tr>
+<tr>
+<td>Balikpapan</td>
+<td>ID</td>
+<td>09-02-2018</td>
+<td align="right">-1.24</td>
+<td align="right">116.86</td>
+<td align="right">82.22</td>
+<td align="right">98</td>
+<td align="right">8</td>
+<td align="right">11.59</td>
+</tr>
+<tr>
+<td>Phalombe</td>
+<td>MW</td>
+<td>09-02-2018</td>
+<td align="right">-15.81</td>
+<td align="right">35.65</td>
+<td align="right">79.61</td>
+<td align="right">34</td>
+<td align="right">0</td>
+<td align="right">2.98</td>
+</tr>
+<tr>
+<td>Nefteyugansk</td>
+<td>RU</td>
+<td>09-02-2018</td>
+<td align="right">61.09</td>
+<td align="right">72.61</td>
+<td align="right">55.4</td>
+<td align="right">71</td>
+<td align="right">0</td>
+<td align="right">6.71</td>
+</tr>
+<tr>
+<td>Melfort</td>
+<td>CA</td>
+<td>09-02-2018</td>
+<td align="right">52.87</td>
+<td align="right">-104.61</td>
+<td align="right">44.6</td>
+<td align="right">87</td>
+<td align="right">1</td>
+<td align="right">13.87</td>
+</tr>
+<tr>
+<td>Terney</td>
+<td>RU</td>
+<td>09-02-2018</td>
+<td align="right">45.05</td>
+<td align="right">136.61</td>
+<td align="right">60.26</td>
+<td align="right">96</td>
+<td align="right">92</td>
+<td align="right">5.1</td>
+</tr>
+<tr>
+<td>Majene</td>
+<td>ID</td>
+<td>09-02-2018</td>
+<td align="right">-3.54</td>
+<td align="right">118.97</td>
+<td align="right">82.49</td>
+<td align="right">94</td>
+<td align="right">8</td>
+<td align="right">16.51</td>
+</tr>
+<tr>
+<td>Ntcheu</td>
+<td>MW</td>
+<td>09-02-2018</td>
+<td align="right">-14.82</td>
+<td align="right">34.64</td>
+<td align="right">78.53</td>
+<td align="right">39</td>
+<td align="right">0</td>
+<td align="right">5.44</td>
+</tr>
+<tr>
+<td>Ucluelet</td>
+<td>CA</td>
+<td>09-02-2018</td>
+<td align="right">48.94</td>
+<td align="right">-125.55</td>
+<td align="right">53.6</td>
+<td align="right">93</td>
+<td align="right">90</td>
+<td align="right">2.24</td>
+</tr>
+<tr>
+<td>Dhaulpur</td>
+<td>IN</td>
+<td>09-02-2018</td>
+<td align="right">26.7</td>
+<td align="right">77.9</td>
+<td align="right">74.66</td>
+<td align="right">100</td>
+<td align="right">92</td>
+<td align="right">5.55</td>
+</tr>
+<tr>
+<td>Redcliffe</td>
+<td>GB</td>
+<td>09-02-2018</td>
+<td align="right">51.45</td>
+<td align="right">-2.59</td>
+<td align="right">75.2</td>
+<td align="right">60</td>
+<td align="right">64</td>
+<td align="right">8.05</td>
+</tr>
+<tr>
+<td>Bidor</td>
+<td>MY</td>
+<td>09-02-2018</td>
+<td align="right">4.11</td>
+<td align="right">101.29</td>
+<td align="right">82.4</td>
+<td align="right">83</td>
+<td align="right">75</td>
+<td align="right">2.24</td>
+</tr>
+<tr>
+<td>Chokurdakh</td>
+<td>RU</td>
+<td>09-02-2018</td>
+<td align="right">70.62</td>
+<td align="right">147.9</td>
+<td align="right">39.38</td>
+<td align="right">84</td>
+<td align="right">92</td>
+<td align="right">6.44</td>
+</tr>
+<tr>
+<td>Danshui</td>
+<td>CN</td>
+<td>09-02-2018</td>
+<td align="right">22.81</td>
+<td align="right">114.46</td>
+<td align="right">77.09</td>
+<td align="right">100</td>
+<td align="right">48</td>
+<td align="right">2.64</td>
+</tr>
+<tr>
+<td>Lukulu</td>
+<td>ZM</td>
+<td>09-02-2018</td>
+<td align="right">-14.38</td>
+<td align="right">23.24</td>
+<td align="right">88.61</td>
+<td align="right">19</td>
+<td align="right">0</td>
+<td align="right">4.65</td>
+</tr>
+<tr>
+<td>Secunda</td>
+<td>ZA</td>
+<td>09-02-2018</td>
+<td align="right">-26.52</td>
+<td align="right">29.2</td>
+<td align="right">73.76</td>
+<td align="right">11</td>
+<td align="right">0</td>
+<td align="right">16.06</td>
+</tr>
+<tr>
+<td>Hanzhong</td>
+<td>CN</td>
+<td>09-02-2018</td>
+<td align="right">33.08</td>
+<td align="right">107.03</td>
+<td align="right">71.96</td>
+<td align="right">85</td>
+<td align="right">76</td>
+<td align="right">2.19</td>
+</tr>
+<tr>
+<td>Florianopolis</td>
+<td>BR</td>
+<td>09-02-2018</td>
+<td align="right">-27.6</td>
+<td align="right">-48.55</td>
+<td align="right">66.2</td>
+<td align="right">100</td>
+<td align="right">75</td>
+<td align="right">3.36</td>
+</tr>
+<tr>
+<td>Itacare</td>
+<td>BR</td>
+<td>09-02-2018</td>
+<td align="right">-14.28</td>
+<td align="right">-39.0</td>
+<td align="right">78.8</td>
+<td align="right">69</td>
+<td align="right">75</td>
+<td align="right">6.93</td>
+</tr>
+<tr>
+<td>Mashhad</td>
+<td>IR</td>
+<td>09-02-2018</td>
+<td align="right">36.3</td>
+<td align="right">59.61</td>
+<td align="right">77.0</td>
+<td align="right">16</td>
+<td align="right">0</td>
+<td align="right">16.11</td>
+</tr>
+<tr>
+<td>Kaduy</td>
+<td>RU</td>
+<td>09-02-2018</td>
+<td align="right">59.2</td>
+<td align="right">37.15</td>
+<td align="right">65.66</td>
+<td align="right">95</td>
+<td align="right">92</td>
+<td align="right">4.43</td>
+</tr>
+<tr>
+<td>Dayong</td>
+<td>PH</td>
+<td>09-02-2018</td>
+<td align="right">11.74</td>
+<td align="right">122.04</td>
+<td align="right">78.8</td>
+<td align="right">100</td>
+<td align="right">40</td>
+<td align="right">2.24</td>
+</tr>
+<tr>
+<td>Sambava</td>
+<td>MG</td>
+<td>09-02-2018</td>
+<td align="right">-14.27</td>
+<td align="right">50.17</td>
+<td align="right">71.51</td>
+<td align="right">100</td>
+<td align="right">92</td>
+<td align="right">17.85</td>
+</tr>
+<tr>
+<td>Bydgoszcz</td>
+<td>PL</td>
+<td>09-02-2018</td>
+<td align="right">53.12</td>
+<td align="right">18.0</td>
+<td align="right">77.0</td>
+<td align="right">50</td>
+<td align="right">0</td>
+<td align="right">13.87</td>
+</tr>
+<tr>
+<td>Valleyview</td>
+<td>CA</td>
+<td>09-02-2018</td>
+<td align="right">55.07</td>
+<td align="right">-117.28</td>
+<td align="right">46.76</td>
+<td align="right">83</td>
+<td align="right">12</td>
+<td align="right">9.01</td>
+</tr>
+<tr>
+<td>Putina</td>
+<td>PE</td>
+<td>09-02-2018</td>
+<td align="right">-14.91</td>
+<td align="right">-69.87</td>
+<td align="right">35.6</td>
+<td align="right">22</td>
+<td align="right">0</td>
+<td align="right">3.36</td>
+</tr>
+<tr>
+<td>Santiago</td>
+<td>CL</td>
+<td>09-02-2018</td>
+<td align="right">-33.44</td>
+<td align="right">-70.65</td>
+<td align="right">50.0</td>
+<td align="right">66</td>
+<td align="right">0</td>
+<td align="right">1.12</td>
+</tr>
+<tr>
+<td>Grevesmuhlen</td>
+<td>DE</td>
+<td>09-02-2018</td>
+<td align="right">53.87</td>
+<td align="right">11.18</td>
+<td align="right">69.8</td>
+<td align="right">68</td>
+<td align="right">40</td>
+<td align="right">11.41</td>
+</tr>
+<tr>
+<td>Saint-Augustin</td>
+<td>FR</td>
+<td>09-02-2018</td>
+<td align="right">44.83</td>
+<td align="right">-0.61</td>
+<td align="right">82.4</td>
+<td align="right">29</td>
+<td align="right">0</td>
+<td align="right">9.17</td>
+</tr>
+<tr>
+<td>High Level</td>
+<td>CA</td>
+<td>09-02-2018</td>
+<td align="right">58.52</td>
+<td align="right">-117.13</td>
+<td align="right">30.2</td>
+<td align="right">100</td>
+<td align="right">20</td>
+<td align="right">4.7</td>
+</tr>
+<tr>
+<td>Teeli</td>
+<td>RU</td>
+<td>09-02-2018</td>
+<td align="right">51.01</td>
+<td align="right">90.2</td>
+<td align="right">39.11</td>
+<td align="right">91</td>
+<td align="right">8</td>
+<td align="right">2.19</td>
+</tr>
+<tr>
+<td>Brokopondo</td>
+<td>SR</td>
+<td>09-02-2018</td>
+<td align="right">5.06</td>
+<td align="right">-54.98</td>
+<td align="right">84.2</td>
+<td align="right">74</td>
+<td align="right">20</td>
+<td align="right">4.7</td>
+</tr>
+<tr>
+<td>Kirensk</td>
+<td>RU</td>
+<td>09-02-2018</td>
+<td align="right">57.78</td>
+<td align="right">108.12</td>
+<td align="right">46.58</td>
+<td align="right">58</td>
+<td align="right">0</td>
+<td align="right">4.43</td>
+</tr>
+<tr>
+<td>Uyuni</td>
+<td>BO</td>
+<td>09-02-2018</td>
+<td align="right">-20.46</td>
+<td align="right">-66.82</td>
+<td align="right">49.28</td>
+<td align="right">17</td>
+<td align="right">0</td>
+<td align="right">7.67</td>
+</tr>
+<tr>
+<td>Magrath</td>
+<td>CA</td>
+<td>09-02-2018</td>
+<td align="right">49.42</td>
+<td align="right">-112.86</td>
+<td align="right">41.0</td>
+<td align="right">86</td>
+<td align="right">75</td>
+<td align="right">9.17</td>
+</tr>
+<tr>
+<td>Colesberg</td>
+<td>ZA</td>
+<td>09-02-2018</td>
+<td align="right">-30.72</td>
+<td align="right">25.1</td>
+<td align="right">52.25</td>
+<td align="right">63</td>
+<td align="right">92</td>
+<td align="right">18.3</td>
+</tr>
+<tr>
+<td>Tilichiki</td>
+<td>RU</td>
+<td>09-02-2018</td>
+<td align="right">60.47</td>
+<td align="right">166.1</td>
+<td align="right">49.55</td>
+<td align="right">95</td>
+<td align="right">92</td>
+<td align="right">11.81</td>
+</tr>
+<tr>
+<td>Alto Paraguai</td>
+<td>BR</td>
+<td>09-02-2018</td>
+<td align="right">-14.51</td>
+<td align="right">-56.48</td>
+<td align="right">80.06</td>
+<td align="right">47</td>
+<td align="right">0</td>
+<td align="right">12.59</td>
+</tr>
+<tr>
+<td>Vaini</td>
+<td>IN</td>
+<td>09-02-2018</td>
+<td align="right">15.34</td>
+<td align="right">74.49</td>
+<td align="right">68.18</td>
+<td align="right">99</td>
+<td align="right">92</td>
+<td align="right">4.54</td>
+</tr>
+<tr>
+<td>Conde</td>
+<td>BR</td>
+<td>09-02-2018</td>
+<td align="right">-11.81</td>
+<td align="right">-37.61</td>
+<td align="right">79.7</td>
+<td align="right">75</td>
+<td align="right">36</td>
+<td align="right">11.25</td>
+</tr>
+<tr>
+<td>Okhotsk</td>
+<td>RU</td>
+<td>09-02-2018</td>
+<td align="right">59.36</td>
+<td align="right">143.24</td>
+<td align="right">50.99</td>
+<td align="right">100</td>
+<td align="right">0</td>
+<td align="right">5.99</td>
+</tr>
+<tr>
+<td>Thompson</td>
+<td>CA</td>
+<td>09-02-2018</td>
+<td align="right">55.74</td>
+<td align="right">-97.86</td>
+<td align="right">51.8</td>
+<td align="right">100</td>
+<td align="right">90</td>
+<td align="right">5.82</td>
+</tr>
+<tr>
+<td>Urdoma</td>
+<td>RU</td>
+<td>09-02-2018</td>
+<td align="right">61.74</td>
+<td align="right">48.55</td>
+<td align="right">60.44</td>
+<td align="right">76</td>
+<td align="right">0</td>
+<td align="right">2.75</td>
+</tr>
+<tr>
+<td>Changping</td>
+<td>CN</td>
+<td>09-02-2018</td>
+<td align="right">40.22</td>
+<td align="right">116.23</td>
+<td align="right">75.2</td>
+<td align="right">88</td>
+<td align="right">56</td>
+<td align="right">6.71</td>
+</tr>
+<tr>
+<td>Asti</td>
+<td>IT</td>
+<td>09-02-2018</td>
+<td align="right">44.9</td>
+<td align="right">8.21</td>
+<td align="right">75.2</td>
+<td align="right">49</td>
+<td align="right">40</td>
+<td align="right">3.36</td>
+</tr>
+<tr>
+<td>Walvis Bay</td>
+<td>NA</td>
+<td>09-02-2018</td>
+<td align="right">-22.95</td>
+<td align="right">14.51</td>
+<td align="right">61.7</td>
+<td align="right">90</td>
+<td align="right">8</td>
+<td align="right">19.64</td>
+</tr>
+<tr>
+<td>Barkly West</td>
+<td>ZA</td>
+<td>09-02-2018</td>
+<td align="right">-28.54</td>
+<td align="right">24.52</td>
+<td align="right">64.4</td>
+<td align="right">27</td>
+<td align="right">75</td>
+<td align="right">16.11</td>
+</tr>
+<tr>
+<td>Faya</td>
+<td>SA</td>
+<td>09-02-2018</td>
+<td align="right">18.39</td>
+<td align="right">42.45</td>
+<td align="right">86.0</td>
+<td align="right">48</td>
+<td align="right">40</td>
+<td align="right">17.22</td>
+</tr>
+<tr>
+<td>Cuenca</td>
+<td>ES</td>
+<td>09-02-2018</td>
+<td align="right">40.07</td>
+<td align="right">-2.13</td>
+<td align="right">89.6</td>
+<td align="right">25</td>
+<td align="right">0</td>
+<td align="right">8.01</td>
+</tr>
+<tr>
+<td>Pochutla</td>
+<td>MX</td>
+<td>09-02-2018</td>
+<td align="right">15.74</td>
+<td align="right">-96.47</td>
+<td align="right">75.2</td>
+<td align="right">69</td>
+<td align="right">75</td>
+<td align="right">10.29</td>
+</tr>
+<tr>
+<td>Karachi</td>
+<td>PK</td>
+<td>09-02-2018</td>
+<td align="right">24.87</td>
+<td align="right">67.03</td>
+<td align="right">82.4</td>
+<td align="right">69</td>
+<td align="right">75</td>
+<td align="right">11.41</td>
+</tr>
+<tr>
+<td>Chumikan</td>
+<td>RU</td>
+<td>09-02-2018</td>
+<td align="right">54.72</td>
+<td align="right">135.31</td>
+<td align="right">54.05</td>
+<td align="right">98</td>
+<td align="right">92</td>
+<td align="right">3.65</td>
+</tr>
+<tr>
+<td>Itacoatiara</td>
+<td>BR</td>
+<td>09-02-2018</td>
+<td align="right">-3.14</td>
+<td align="right">-58.44</td>
+<td align="right">91.94</td>
+<td align="right">57</td>
+<td align="right">8</td>
+<td align="right">4.76</td>
+</tr>
+<tr>
+<td>Xuddur</td>
+<td>SO</td>
+<td>09-02-2018</td>
+<td align="right">4.12</td>
+<td align="right">43.89</td>
+<td align="right">86.81</td>
+<td align="right">33</td>
+<td align="right">92</td>
+<td align="right">11.59</td>
+</tr>
+<tr>
+<td>Moramanga</td>
+<td>MG</td>
+<td>09-02-2018</td>
+<td align="right">-18.95</td>
+<td align="right">48.23</td>
+<td align="right">56.03</td>
+<td align="right">100</td>
+<td align="right">80</td>
+<td align="right">3.09</td>
+</tr>
+<tr>
+<td>Adelaide</td>
+<td>AU</td>
+<td>09-02-2018</td>
+<td align="right">-34.93</td>
+<td align="right">138.6</td>
+<td align="right">44.6</td>
+<td align="right">81</td>
+<td align="right">0</td>
+<td align="right">5.82</td>
+</tr>
+<tr>
+<td>Olbia</td>
+<td>IT</td>
+<td>09-02-2018</td>
+<td align="right">40.92</td>
+<td align="right">9.49</td>
+<td align="right">80.6</td>
+<td align="right">42</td>
+<td align="right">40</td>
+<td align="right">11.41</td>
+</tr>
+<tr>
+<td>Loandjili</td>
+<td>CG</td>
+<td>09-02-2018</td>
+<td align="right">-4.77</td>
+<td align="right">11.87</td>
+<td align="right">77.0</td>
+<td align="right">73</td>
+<td align="right">75</td>
+<td align="right">6.93</td>
+</tr>
+<tr>
+<td>Guiglo</td>
+<td>CI</td>
+<td>09-02-2018</td>
+<td align="right">6.55</td>
+<td align="right">-7.5</td>
+<td align="right">72.23</td>
+<td align="right">99</td>
+<td align="right">92</td>
+<td align="right">7.23</td>
+</tr>
+<tr>
+<td>Bahawalpur</td>
+<td>PK</td>
+<td>09-02-2018</td>
+<td align="right">29.39</td>
+<td align="right">71.66</td>
+<td align="right">90.41</td>
+<td align="right">50</td>
+<td align="right">32</td>
+<td align="right">7.78</td>
+</tr>
+<tr>
+<td>Blythe</td>
+<td>US</td>
+<td>09-02-2018</td>
+<td align="right">33.61</td>
+<td align="right">-114.59</td>
+<td align="right">79.07</td>
+<td align="right">59</td>
+<td align="right">0</td>
+<td align="right">8.23</td>
+</tr>
+<tr>
+<td>Lucapa</td>
+<td>AO</td>
+<td>09-02-2018</td>
+<td align="right">-8.42</td>
+<td align="right">20.74</td>
+<td align="right">88.16</td>
+<td align="right">42</td>
+<td align="right">0</td>
+<td align="right">3.98</td>
+</tr>
+<tr>
+<td>Barlinek</td>
+<td>PL</td>
+<td>09-02-2018</td>
+<td align="right">53.0</td>
+<td align="right">15.22</td>
+<td align="right">73.4</td>
+<td align="right">53</td>
+<td align="right">0</td>
+<td align="right">9.17</td>
+</tr>
+<tr>
+<td>Zaraza</td>
+<td>VE</td>
+<td>09-02-2018</td>
+<td align="right">9.35</td>
+<td align="right">-65.33</td>
+<td align="right">88.7</td>
+<td align="right">64</td>
+<td align="right">20</td>
+<td align="right">7.11</td>
+</tr>
+<tr>
+<td>Miles City</td>
+<td>US</td>
+<td>09-02-2018</td>
+<td align="right">46.41</td>
+<td align="right">-105.84</td>
+<td align="right">44.96</td>
+<td align="right">85</td>
+<td align="right">1</td>
+<td align="right">3.36</td>
+</tr>
+<tr>
+<td>Ibia</td>
+<td>NG</td>
+<td>09-02-2018</td>
+<td align="right">5.18</td>
+<td align="right">6.32</td>
+<td align="right">80.78</td>
+<td align="right">86</td>
+<td align="right">92</td>
+<td align="right">5.66</td>
+</tr>
+<tr>
+<td>Rome</td>
+<td>IT</td>
+<td>09-02-2018</td>
+<td align="right">41.89</td>
+<td align="right">12.48</td>
+<td align="right">80.6</td>
+<td align="right">54</td>
+<td align="right">75</td>
+<td align="right">6.93</td>
+</tr>
+<tr>
+<td>Glomfjord</td>
+<td>NO</td>
+<td>09-02-2018</td>
+<td align="right">66.82</td>
+<td align="right">13.94</td>
+<td align="right">57.2</td>
+<td align="right">93</td>
+<td align="right">75</td>
+<td align="right">2.24</td>
+</tr>
+<tr>
+<td>Hofn</td>
+<td>IS</td>
+<td>09-02-2018</td>
+<td align="right">64.25</td>
+<td align="right">-15.21</td>
+<td align="right">48.2</td>
+<td align="right">81</td>
+<td align="right">75</td>
+<td align="right">4.7</td>
+</tr>
+<tr>
+<td>Cumpas</td>
+<td>MX</td>
+<td>09-02-2018</td>
+<td align="right">30.0</td>
+<td align="right">-109.78</td>
+<td align="right">68.09</td>
+<td align="right">98</td>
+<td align="right">92</td>
+<td align="right">2.64</td>
+</tr>
+<tr>
+<td>Illela</td>
+<td>NG</td>
+<td>09-02-2018</td>
+<td align="right">12.39</td>
+<td align="right">4.75</td>
+<td align="right">85.28</td>
+<td align="right">84</td>
+<td align="right">12</td>
+<td align="right">7.11</td>
+</tr>
+<tr>
+<td>Mackay</td>
+<td>CA</td>
+<td>09-02-2018</td>
+<td align="right">53.65</td>
+<td align="right">-115.58</td>
+<td align="right">35.6</td>
+<td align="right">66</td>
+<td align="right">20</td>
+<td align="right">4.54</td>
+</tr>
+<tr>
+<td>Novonikolsk</td>
+<td>RU</td>
+<td>09-02-2018</td>
+<td align="right">43.85</td>
+<td align="right">131.86</td>
+<td align="right">64.4</td>
+<td align="right">82</td>
+<td align="right">40</td>
+<td align="right">11.18</td>
+</tr>
+<tr>
+<td>Normandin</td>
+<td>CA</td>
+<td>09-02-2018</td>
+<td align="right">48.84</td>
+<td align="right">-72.53</td>
+<td align="right">68.0</td>
+<td align="right">94</td>
+<td align="right">90</td>
+<td align="right">2.24</td>
+</tr>
+<tr>
+<td>Sar-e Pul</td>
+<td>AF</td>
+<td>09-02-2018</td>
+<td align="right">36.22</td>
+<td align="right">65.93</td>
+<td align="right">55.13</td>
+<td align="right">46</td>
+<td align="right">0</td>
+<td align="right">2.98</td>
+</tr>
+<tr>
+<td>Glenwood Springs</td>
+<td>US</td>
+<td>09-02-2018</td>
+<td align="right">39.55</td>
+<td align="right">-107.33</td>
+<td align="right">53.96</td>
+<td align="right">52</td>
+<td align="right">1</td>
+<td align="right">2.19</td>
+</tr>
+<tr>
+<td>Uyutne</td>
+<td>UA</td>
+<td>09-02-2018</td>
+<td align="right">45.2</td>
+<td align="right">33.3</td>
+<td align="right">81.68</td>
+<td align="right">87</td>
+<td align="right">0</td>
+<td align="right">16.06</td>
+</tr>
+<tr>
+<td>Ramhormoz</td>
+<td>IR</td>
+<td>09-02-2018</td>
+<td align="right">31.28</td>
+<td align="right">49.6</td>
+<td align="right">111.2</td>
+<td align="right">10</td>
+<td align="right">0</td>
+<td align="right">11.41</td>
+</tr>
+<tr>
+<td>Thunder Bay</td>
+<td>CA</td>
+<td>09-02-2018</td>
+<td align="right">48.41</td>
+<td align="right">-89.26</td>
+<td align="right">62.6</td>
+<td align="right">100</td>
+<td align="right">90</td>
+<td align="right">3.36</td>
+</tr>
+<tr>
+<td>Ziniare</td>
+<td>BF</td>
+<td>09-02-2018</td>
+<td align="right">12.58</td>
+<td align="right">-1.3</td>
+<td align="right">84.2</td>
+<td align="right">66</td>
+<td align="right">40</td>
+<td align="right">6.93</td>
+</tr>
+<tr>
+<td>Port Moresby</td>
+<td>PG</td>
+<td>09-02-2018</td>
+<td align="right">-9.47</td>
+<td align="right">147.16</td>
+<td align="right">77.0</td>
+<td align="right">88</td>
+<td align="right">20</td>
+<td align="right">11.41</td>
+</tr>
+<tr>
+<td>Vila Franca do Campo</td>
+<td>PT</td>
+<td>09-02-2018</td>
+<td align="right">37.72</td>
+<td align="right">-25.43</td>
+<td align="right">77.0</td>
+<td align="right">61</td>
+<td align="right">20</td>
+<td align="right">12.75</td>
+</tr>
+<tr>
+<td>Changzhou</td>
+<td>CN</td>
+<td>09-02-2018</td>
+<td align="right">31.81</td>
+<td align="right">119.97</td>
+<td align="right">79.34</td>
+<td align="right">93</td>
+<td align="right">24</td>
+<td align="right">3.42</td>
+</tr>
+<tr>
+<td>Gazojak</td>
+<td>TM</td>
+<td>09-02-2018</td>
+<td align="right">41.19</td>
+<td align="right">61.4</td>
+<td align="right">68.54</td>
+<td align="right">32</td>
+<td align="right">0</td>
+<td align="right">15.17</td>
+</tr>
+<tr>
+<td>Sterling</td>
+<td>US</td>
+<td>09-02-2018</td>
+<td align="right">39.0</td>
+<td align="right">-77.4</td>
+<td align="right">78.08</td>
+<td align="right">88</td>
+<td align="right">75</td>
+<td align="right">4.65</td>
+</tr>
+<tr>
+<td>Mehran</td>
+<td>IR</td>
+<td>09-02-2018</td>
+<td align="right">33.12</td>
+<td align="right">46.17</td>
+<td align="right">100.4</td>
+<td align="right">13</td>
+<td align="right">0</td>
+<td align="right">6.93</td>
+</tr>
+<tr>
+<td>Datong</td>
+<td>CN</td>
+<td>09-02-2018</td>
+<td align="right">40.09</td>
+<td align="right">113.3</td>
+<td align="right">57.56</td>
+<td align="right">70</td>
+<td align="right">0</td>
+<td align="right">8.57</td>
+</tr>
+<tr>
+<td>Le Port</td>
+<td>FR</td>
+<td>09-02-2018</td>
+<td align="right">42.87</td>
+<td align="right">1.37</td>
+<td align="right">71.15</td>
+<td align="right">25</td>
+<td align="right">20</td>
+<td align="right">1.52</td>
+</tr>
+<tr>
+<td>Pedernales</td>
+<td>EC</td>
+<td>09-02-2018</td>
+<td align="right">0.07</td>
+<td align="right">-80.05</td>
+<td align="right">75.56</td>
+<td align="right">90</td>
+<td align="right">88</td>
+<td align="right">4.65</td>
+</tr>
+<tr>
+<td>Nueva Loja</td>
+<td>EC</td>
+<td>09-02-2018</td>
+<td align="right">0.08</td>
+<td align="right">-76.88</td>
+<td align="right">77.0</td>
+<td align="right">88</td>
+<td align="right">40</td>
+<td align="right">4.7</td>
+</tr>
+<tr>
+<td>Jishou</td>
+<td>CN</td>
+<td>09-02-2018</td>
+<td align="right">28.26</td>
+<td align="right">109.7</td>
+<td align="right">77.9</td>
+<td align="right">88</td>
+<td align="right">56</td>
+<td align="right">0.74</td>
+</tr>
+<tr>
+<td>San Policarpo</td>
+<td>PH</td>
+<td>09-02-2018</td>
+<td align="right">12.18</td>
+<td align="right">125.51</td>
+<td align="right">79.16</td>
+<td align="right">100</td>
+<td align="right">88</td>
+<td align="right">11.48</td>
+</tr>
+<tr>
+<td>Sao Felix do Xingu</td>
+<td>BR</td>
+<td>09-02-2018</td>
+<td align="right">-6.64</td>
+<td align="right">-51.99</td>
+<td align="right">95.54</td>
+<td align="right">33</td>
+<td align="right">0</td>
+<td align="right">4.09</td>
+</tr>
+<tr>
+<td>Zelenoborskiy</td>
+<td>RU</td>
+<td>09-02-2018</td>
+<td align="right">66.84</td>
+<td align="right">32.36</td>
+<td align="right">60.53</td>
+<td align="right">80</td>
+<td align="right">76</td>
+<td align="right">3.65</td>
+</tr>
+<tr>
+<td>Hongjiang</td>
+<td>CN</td>
+<td>09-02-2018</td>
+<td align="right">27.21</td>
+<td align="right">109.83</td>
+<td align="right">78.71</td>
+<td align="right">77</td>
+<td align="right">36</td>
+<td align="right">4.21</td>
+</tr>
+<tr>
+<td>Oyem</td>
+<td>GA</td>
+<td>09-02-2018</td>
+<td align="right">1.6</td>
+<td align="right">11.57</td>
+<td align="right">75.2</td>
+<td align="right">88</td>
+<td align="right">90</td>
+<td align="right">2.75</td>
+</tr>
+<tr>
+<td>Kirakira</td>
+<td>SB</td>
+<td>09-02-2018</td>
+<td align="right">-10.46</td>
+<td align="right">161.92</td>
+<td align="right">80.96</td>
+<td align="right">100</td>
+<td align="right">92</td>
+<td align="right">11.48</td>
+</tr>
+<tr>
+<td>Nabire</td>
+<td>ID</td>
+<td>09-02-2018</td>
+<td align="right">-3.36</td>
+<td align="right">135.5</td>
+<td align="right">65.75</td>
+<td align="right">94</td>
+<td align="right">20</td>
+<td align="right">2.08</td>
+</tr>
+<tr>
+<td>Phalodi</td>
+<td>IN</td>
+<td>09-02-2018</td>
+<td align="right">27.13</td>
+<td align="right">72.36</td>
+<td align="right">88.88</td>
+<td align="right">49</td>
+<td align="right">32</td>
+<td align="right">7.0</td>
+</tr>
+<tr>
+<td>Ayolas</td>
+<td>PY</td>
+<td>09-02-2018</td>
+<td align="right">-27.39</td>
+<td align="right">-56.84</td>
+<td align="right">59.0</td>
+<td align="right">100</td>
+<td align="right">92</td>
+<td align="right">9.01</td>
+</tr>
+<tr>
+<td>Chiman</td>
+<td>PK</td>
+<td>09-02-2018</td>
+<td align="right">32.55</td>
+<td align="right">73.81</td>
+<td align="right">89.6</td>
+<td align="right">66</td>
+<td align="right">40</td>
+<td align="right">6.93</td>
+</tr>
+<tr>
+<td>Itoman</td>
+<td>JP</td>
+<td>09-02-2018</td>
+<td align="right">26.12</td>
+<td align="right">127.67</td>
+<td align="right">82.4</td>
+<td align="right">74</td>
+<td align="right">20</td>
+<td align="right">9.17</td>
+</tr>
+<tr>
+<td>Moen</td>
+<td>NO</td>
+<td>09-02-2018</td>
+<td align="right">69.13</td>
+<td align="right">18.61</td>
+<td align="right">60.8</td>
+<td align="right">63</td>
+<td align="right">75</td>
+<td align="right">19.46</td>
+</tr>
+<tr>
+<td>Gulbarga</td>
+<td>IN</td>
+<td>09-02-2018</td>
+<td align="right">17.33</td>
+<td align="right">76.83</td>
+<td align="right">76.91</td>
+<td align="right">77</td>
+<td align="right">88</td>
+<td align="right">11.81</td>
+</tr>
+<tr>
+<td>Manica</td>
+<td>MZ</td>
+<td>09-02-2018</td>
+<td align="right">-18.94</td>
+<td align="right">32.88</td>
+<td align="right">86.0</td>
+<td align="right">28</td>
+<td align="right">20</td>
+<td align="right">4.99</td>
+</tr>
+<tr>
+<td>Tunceli</td>
+<td>TR</td>
+<td>09-02-2018</td>
+<td align="right">39.11</td>
+<td align="right">39.55</td>
+<td align="right">96.8</td>
+<td align="right">14</td>
+<td align="right">0</td>
+<td align="right">6.93</td>
+</tr>
+<tr>
+<td>Bo Phloi</td>
+<td>TH</td>
+<td>09-02-2018</td>
+<td align="right">14.32</td>
+<td align="right">99.52</td>
+<td align="right">81.05</td>
+<td align="right">69</td>
+<td align="right">80</td>
+<td align="right">6.55</td>
+</tr>
+<tr>
+<td>Ladario</td>
+<td>PT</td>
+<td>09-02-2018</td>
+<td align="right">40.7</td>
+<td align="right">-7.74</td>
+<td align="right">91.67</td>
+<td align="right">27</td>
+<td align="right">0</td>
+<td align="right">3.09</td>
+</tr>
+<tr>
+<td>Pauini</td>
+<td>BR</td>
+<td>09-02-2018</td>
+<td align="right">-7.71</td>
+<td align="right">-67.0</td>
+<td align="right">88.16</td>
+<td align="right">62</td>
+<td align="right">12</td>
+<td align="right">3.76</td>
+</tr>
+<tr>
+<td>Toamasina</td>
+<td>MG</td>
+<td>09-02-2018</td>
+<td align="right">-18.17</td>
+<td align="right">49.38</td>
+<td align="right">77.0</td>
+<td align="right">65</td>
+<td align="right">40</td>
+<td align="right">8.05</td>
+</tr>
+<tr>
+<td>Cassilandia</td>
+<td>BR</td>
+<td>09-02-2018</td>
+<td align="right">-19.11</td>
+<td align="right">-51.73</td>
+<td align="right">88.61</td>
+<td align="right">42</td>
+<td align="right">12</td>
+<td align="right">9.24</td>
+</tr>
+<tr>
+<td>Kalabo</td>
+<td>ZM</td>
+<td>09-02-2018</td>
+<td align="right">-15.0</td>
+<td align="right">22.67</td>
+<td align="right">90.32</td>
+<td align="right">14</td>
+<td align="right">0</td>
+<td align="right">3.42</td>
+</tr>
+<tr>
+<td>Ushirombo</td>
+<td>TZ</td>
+<td>09-02-2018</td>
+<td align="right">-3.47</td>
+<td align="right">31.9</td>
+<td align="right">83.75</td>
+<td align="right">32</td>
+<td align="right">8</td>
+<td align="right">5.55</td>
+</tr>
+<tr>
+<td>Jiaocheng</td>
+<td>CN</td>
+<td>09-02-2018</td>
+<td align="right">24.68</td>
+<td align="right">116.14</td>
+<td align="right">74.66</td>
+<td align="right">94</td>
+<td align="right">36</td>
+<td align="right">2.08</td>
+</tr>
+<tr>
+<td>Salina</td>
+<td>US</td>
+<td>09-02-2018</td>
+<td align="right">36.29</td>
+<td align="right">-95.15</td>
+<td align="right">75.92</td>
+<td align="right">83</td>
+<td align="right">1</td>
+<td align="right">9.17</td>
+</tr>
+<tr>
+<td>Cheney</td>
+<td>US</td>
+<td>09-02-2018</td>
+<td align="right">47.49</td>
+<td align="right">-117.58</td>
+<td align="right">50.0</td>
+<td align="right">66</td>
+<td align="right">1</td>
+<td align="right">3.36</td>
+</tr>
+<tr>
+<td>Kindu</td>
+<td>CD</td>
+<td>09-02-2018</td>
+<td align="right">-2.95</td>
+<td align="right">25.92</td>
+<td align="right">83.03</td>
+<td align="right">63</td>
+<td align="right">8</td>
+<td align="right">2.53</td>
+</tr>
+<tr>
+<td>Klaksvik</td>
+<td>FO</td>
+<td>09-02-2018</td>
+<td align="right">62.23</td>
+<td align="right">-6.59</td>
+<td align="right">53.6</td>
+<td align="right">100</td>
+<td align="right">75</td>
+<td align="right">14.99</td>
+</tr>
+<tr>
+<td>Turbat</td>
+<td>PK</td>
+<td>09-02-2018</td>
+<td align="right">26.0</td>
+<td align="right">63.05</td>
+<td align="right">92.39</td>
+<td align="right">29</td>
+<td align="right">0</td>
+<td align="right">11.7</td>
+</tr>
+<tr>
+<td>Gao</td>
+<td>ML</td>
+<td>09-02-2018</td>
+<td align="right">16.28</td>
+<td align="right">-0.04</td>
+<td align="right">90.5</td>
+<td align="right">58</td>
+<td align="right">20</td>
+<td align="right">7.78</td>
+</tr>
+<tr>
+<td>Luquillo</td>
+<td>PR</td>
+<td>09-02-2018</td>
+<td align="right">18.37</td>
+<td align="right">-65.72</td>
+<td align="right">84.92</td>
+<td align="right">80</td>
+<td align="right">40</td>
+<td align="right">6.93</td>
+</tr>
+<tr>
+<td>Upernavik</td>
+<td>GL</td>
+<td>09-02-2018</td>
+<td align="right">72.79</td>
+<td align="right">-56.15</td>
+<td align="right">36.95</td>
+<td align="right">100</td>
+<td align="right">0</td>
+<td align="right">10.69</td>
+</tr>
+<tr>
+<td>Madingou</td>
+<td>CG</td>
+<td>09-02-2018</td>
+<td align="right">-4.17</td>
+<td align="right">13.56</td>
+<td align="right">86.81</td>
+<td align="right">60</td>
+<td align="right">0</td>
+<td align="right">2.75</td>
+</tr>
+<tr>
+<td>Jahangirpur</td>
+<td>BD</td>
+<td>09-02-2018</td>
+<td align="right">24.5</td>
+<td align="right">90.66</td>
+<td align="right">77.0</td>
+<td align="right">100</td>
+<td align="right">92</td>
+<td align="right">5.66</td>
+</tr>
+<tr>
+<td>Ondjiva</td>
+<td>AO</td>
+<td>09-02-2018</td>
+<td align="right">-17.07</td>
+<td align="right">15.73</td>
+<td align="right">90.95</td>
+<td align="right">16</td>
+<td align="right">0</td>
+<td align="right">5.44</td>
+</tr>
+<tr>
+<td>Songling</td>
+<td>CN</td>
+<td>09-02-2018</td>
+<td align="right">31.19</td>
+<td align="right">120.72</td>
+<td align="right">84.2</td>
+<td align="right">89</td>
+<td align="right">0</td>
+<td align="right">4.47</td>
+</tr>
+<tr>
+<td>Upernavik</td>
+<td>GL</td>
+<td>09-02-2018</td>
+<td align="right">72.79</td>
+<td align="right">-56.15</td>
+<td align="right">36.95</td>
+<td align="right">100</td>
+<td align="right">0</td>
+<td align="right">10.69</td>
+</tr>
+<tr>
+<td>Roshni-Chu</td>
+<td>RU</td>
+<td>09-02-2018</td>
+<td align="right">43.09</td>
+<td align="right">45.45</td>
+<td align="right">73.4</td>
+<td align="right">80</td>
+<td align="right">64</td>
+<td align="right">1.74</td>
+</tr>
+<tr>
+<td>Ouesso</td>
+<td>CG</td>
+<td>09-02-2018</td>
+<td align="right">1.61</td>
+<td align="right">16.05</td>
+<td align="right">78.35</td>
+<td align="right">84</td>
+<td align="right">88</td>
+<td align="right">3.09</td>
+</tr>
+<tr>
+<td>Itanhandu</td>
+<td>BR</td>
+<td>09-02-2018</td>
+<td align="right">-22.3</td>
+<td align="right">-44.93</td>
+<td align="right">80.6</td>
+<td align="right">47</td>
+<td align="right">0</td>
+<td align="right">9.17</td>
+</tr>
+<tr>
+<td>Deputatskiy</td>
+<td>RU</td>
+<td>09-02-2018</td>
+<td align="right">69.3</td>
+<td align="right">139.9</td>
+<td align="right">30.38</td>
+<td align="right">88</td>
+<td align="right">56</td>
+<td align="right">2.53</td>
+</tr>
+<tr>
+<td>Berestechko</td>
+<td>UA</td>
+<td>09-02-2018</td>
+<td align="right">50.36</td>
+<td align="right">25.12</td>
+<td align="right">80.33</td>
+<td align="right">35</td>
+<td align="right">0</td>
+<td align="right">8.12</td>
+</tr>
+<tr>
+<td>Sisimiut</td>
+<td>GL</td>
+<td>09-02-2018</td>
+<td align="right">66.94</td>
+<td align="right">-53.67</td>
+<td align="right">39.56</td>
+<td align="right">83</td>
+<td align="right">92</td>
+<td align="right">2.64</td>
+</tr>
+<tr>
+<td>Ikom</td>
+<td>NG</td>
+<td>09-02-2018</td>
+<td align="right">5.96</td>
+<td align="right">8.72</td>
+<td align="right">76.64</td>
+<td align="right">98</td>
+<td align="right">88</td>
+<td align="right">0.96</td>
+</tr>
+<tr>
+<td>Simpang</td>
+<td>MY</td>
+<td>09-02-2018</td>
+<td align="right">4.82</td>
+<td align="right">100.71</td>
+<td align="right">82.4</td>
+<td align="right">83</td>
+<td align="right">75</td>
+<td align="right">2.24</td>
+</tr>
+<tr>
+<td>Great Bend</td>
+<td>US</td>
+<td>09-02-2018</td>
+<td align="right">38.36</td>
+<td align="right">-98.78</td>
+<td align="right">69.08</td>
+<td align="right">96</td>
+<td align="right">90</td>
+<td align="right">3.36</td>
+</tr>
+<tr>
+<td>Nanakuli</td>
+<td>US</td>
+<td>09-02-2018</td>
+<td align="right">21.39</td>
+<td align="right">-158.15</td>
+<td align="right">75.92</td>
+<td align="right">93</td>
+<td align="right">90</td>
+<td align="right">11.59</td>
+</tr>
+<tr>
+<td>Tallahassee</td>
+<td>US</td>
+<td>09-02-2018</td>
+<td align="right">30.44</td>
+<td align="right">-84.28</td>
+<td align="right">78.8</td>
+<td align="right">88</td>
+<td align="right">1</td>
+<td align="right">5.82</td>
+</tr>
+<tr>
+<td>Bon Air</td>
+<td>US</td>
+<td>09-02-2018</td>
+<td align="right">37.52</td>
+<td align="right">-77.56</td>
+<td align="right">76.82</td>
+<td align="right">88</td>
+<td align="right">20</td>
+<td align="right">3.36</td>
+</tr>
+<tr>
+<td>Olgina</td>
+<td>RU</td>
+<td>09-02-2018</td>
+<td align="right">59.39</td>
+<td align="right">28.13</td>
+<td align="right">67.28</td>
+<td align="right">77</td>
+<td align="right">24</td>
+<td align="right">2.75</td>
+</tr>
+<tr>
+<td>Linjiang</td>
+<td>CN</td>
+<td>09-02-2018</td>
+<td align="right">41.81</td>
+<td align="right">126.91</td>
+<td align="right">62.06</td>
+<td align="right">81</td>
+<td align="right">100</td>
+<td align="right">7.45</td>
+</tr>
+<tr>
+<td>Lerwick</td>
+<td>GB</td>
+<td>09-02-2018</td>
+<td align="right">60.15</td>
+<td align="right">-1.15</td>
+<td align="right">66.2</td>
+<td align="right">68</td>
+<td align="right">0</td>
+<td align="right">17.22</td>
+</tr>
+<tr>
+<td>Leningradskiy</td>
+<td>RU</td>
+<td>09-02-2018</td>
+<td align="right">69.38</td>
+<td align="right">178.42</td>
+<td align="right">39.2</td>
+<td align="right">98</td>
+<td align="right">88</td>
+<td align="right">2.75</td>
+</tr>
+<tr>
+<td>Newala</td>
+<td>TZ</td>
+<td>09-02-2018</td>
+<td align="right">-10.94</td>
+<td align="right">39.28</td>
+<td align="right">82.31</td>
+<td align="right">38</td>
+<td align="right">0</td>
+<td align="right">10.25</td>
+</tr>
+<tr>
+<td>Puerto Madero</td>
+<td>AR</td>
+<td>09-02-2018</td>
+<td align="right">-34.61</td>
+<td align="right">-58.36</td>
+<td align="right">55.4</td>
+<td align="right">71</td>
+<td align="right">0</td>
+<td align="right">13.87</td>
+</tr>
+<tr>
+<td>Liuzhou</td>
+<td>CN</td>
+<td>09-02-2018</td>
+<td align="right">24.32</td>
+<td align="right">109.41</td>
+<td align="right">74.21</td>
+<td align="right">96</td>
+<td align="right">64</td>
+<td align="right">2.98</td>
+</tr>
+<tr>
+<td>Cuamba</td>
+<td>MZ</td>
+<td>09-02-2018</td>
+<td align="right">-14.8</td>
+<td align="right">36.54</td>
+<td align="right">82.85</td>
+<td align="right">28</td>
+<td align="right">88</td>
+<td align="right">4.43</td>
+</tr>
+<tr>
+<td>Patterson</td>
+<td>US</td>
+<td>09-02-2018</td>
+<td align="right">29.69</td>
+<td align="right">-91.3</td>
+<td align="right">75.2</td>
+<td align="right">100</td>
+<td align="right">90</td>
+<td align="right">4.7</td>
+</tr>
+<tr>
+<td>Lasa</td>
+<td>CY</td>
+<td>09-02-2018</td>
+<td align="right">34.92</td>
+<td align="right">32.53</td>
+<td align="right">87.8</td>
+<td align="right">79</td>
+<td align="right">20</td>
+<td align="right">11.41</td>
+</tr>
+<tr>
+<td>Calbuco</td>
+<td>CL</td>
+<td>09-02-2018</td>
+<td align="right">-41.77</td>
+<td align="right">-73.13</td>
+<td align="right">44.6</td>
+<td align="right">93</td>
+<td align="right">75</td>
+<td align="right">8.01</td>
+</tr>
+<tr>
+<td>Vidim</td>
+<td>CZ</td>
+<td>09-02-2018</td>
+<td align="right">50.47</td>
+<td align="right">14.53</td>
+<td align="right">66.2</td>
+<td align="right">77</td>
+<td align="right">75</td>
+<td align="right">7.11</td>
+</tr>
+<tr>
+<td>Okhotsk</td>
+<td>RU</td>
+<td>09-02-2018</td>
+<td align="right">59.36</td>
+<td align="right">143.24</td>
+<td align="right">50.99</td>
+<td align="right">100</td>
+<td align="right">0</td>
+<td align="right">5.99</td>
+</tr>
+<tr>
+<td>Zhezkazgan</td>
+<td>KZ</td>
+<td>09-02-2018</td>
+<td align="right">47.8</td>
+<td align="right">67.71</td>
+<td align="right">59.0</td>
+<td align="right">28</td>
+<td align="right">40</td>
+<td align="right">13.42</td>
+</tr>
+<tr>
+<td>Kizukuri</td>
+<td>JP</td>
+<td>09-02-2018</td>
+<td align="right">40.81</td>
+<td align="right">140.39</td>
+<td align="right">64.67</td>
+<td align="right">100</td>
+<td align="right">76</td>
+<td align="right">4.21</td>
+</tr>
+<tr>
+<td>Pittsfield</td>
+<td>US</td>
+<td>09-02-2018</td>
+<td align="right">39.61</td>
+<td align="right">-90.81</td>
+<td align="right">78.08</td>
+<td align="right">87</td>
+<td align="right">40</td>
+<td align="right">5.82</td>
+</tr>
+<tr>
+<td>Guarapari</td>
+<td>BR</td>
+<td>09-02-2018</td>
+<td align="right">-20.67</td>
+<td align="right">-40.5</td>
+<td align="right">76.91</td>
+<td align="right">84</td>
+<td align="right">12</td>
+<td align="right">17.85</td>
+</tr>
+<tr>
+<td>Husavik</td>
+<td>CA</td>
+<td>09-02-2018</td>
+<td align="right">50.56</td>
+<td align="right">-96.99</td>
+<td align="right">62.6</td>
+<td align="right">66</td>
+<td align="right">0</td>
+<td align="right">12.48</td>
+</tr>
+<tr>
+<td>Kapaa</td>
+<td>US</td>
+<td>09-02-2018</td>
+<td align="right">22.08</td>
+<td align="right">-159.32</td>
+<td align="right">73.94</td>
+<td align="right">90</td>
+<td align="right">75</td>
+<td align="right">9.17</td>
+</tr>
+<tr>
+<td>Takaka</td>
+<td>NZ</td>
+<td>09-02-2018</td>
+<td align="right">-40.86</td>
+<td align="right">172.81</td>
+<td align="right">48.65</td>
+<td align="right">100</td>
+<td align="right">36</td>
+<td align="right">14.27</td>
+</tr>
+<tr>
+<td>Agua Verde</td>
+<td>MX</td>
+<td>09-02-2018</td>
+<td align="right">22.89</td>
+<td align="right">-105.97</td>
+<td align="right">75.2</td>
+<td align="right">100</td>
+<td align="right">75</td>
+<td align="right">3.36</td>
+</tr>
+<tr>
+<td>Porto Velho</td>
+<td>BR</td>
+<td>09-02-2018</td>
+<td align="right">-8.75</td>
+<td align="right">-63.87</td>
+<td align="right">82.4</td>
+<td align="right">74</td>
+<td align="right">0</td>
+<td align="right">2.24</td>
+</tr>
+<tr>
+<td>Damietta</td>
+<td>EG</td>
+<td>09-02-2018</td>
+<td align="right">31.42</td>
+<td align="right">31.81</td>
+<td align="right">86.45</td>
+<td align="right">66</td>
+<td align="right">0</td>
+<td align="right">13.27</td>
+</tr>
+<tr>
+<td>Hobyo</td>
+<td>SO</td>
+<td>09-02-2018</td>
+<td align="right">5.35</td>
+<td align="right">48.53</td>
+<td align="right">79.52</td>
+<td align="right">65</td>
+<td align="right">0</td>
+<td align="right">21.65</td>
+</tr>
+<tr>
+<td>Cabinda</td>
+<td>AO</td>
+<td>09-02-2018</td>
+<td align="right">-5.56</td>
+<td align="right">12.19</td>
+<td align="right">78.8</td>
+<td align="right">69</td>
+<td align="right">20</td>
+<td align="right">8.05</td>
+</tr>
+<tr>
+<td>New Glasgow</td>
+<td>CA</td>
+<td>09-02-2018</td>
+<td align="right">45.59</td>
+<td align="right">-62.65</td>
+<td align="right">69.35</td>
+<td align="right">79</td>
+<td align="right">8</td>
+<td align="right">6.22</td>
+</tr>
+<tr>
+<td>Sungaipenuh</td>
+<td>ID</td>
+<td>09-02-2018</td>
+<td align="right">-2.08</td>
+<td align="right">101.38</td>
+<td align="right">66.65</td>
+<td align="right">92</td>
+<td align="right">88</td>
+<td align="right">1.63</td>
+</tr>
+<tr>
+<td>Akot</td>
+<td>IN</td>
+<td>09-02-2018</td>
+<td align="right">21.09</td>
+<td align="right">77.05</td>
+<td align="right">72.77</td>
+<td align="right">98</td>
+<td align="right">92</td>
+<td align="right">11.14</td>
+</tr>
+<tr>
+<td>Gympie</td>
+<td>AU</td>
+<td>09-02-2018</td>
+<td align="right">-26.2</td>
+<td align="right">152.66</td>
+<td align="right">52.7</td>
+<td align="right">81</td>
+<td align="right">0</td>
+<td align="right">3.2</td>
+</tr>
+<tr>
+<td>Japura</td>
+<td>ID</td>
+<td>09-02-2018</td>
+<td align="right">-0.42</td>
+<td align="right">102.29</td>
+<td align="right">78.35</td>
+<td align="right">75</td>
+<td align="right">24</td>
+<td align="right">1.97</td>
+</tr>
+<tr>
+<td>Abashiri</td>
+<td>JP</td>
+<td>09-02-2018</td>
+<td align="right">44.01</td>
+<td align="right">144.25</td>
+<td align="right">52.7</td>
+<td align="right">92</td>
+<td align="right">44</td>
+<td align="right">2.53</td>
+</tr>
+<tr>
+<td>Zalantun</td>
+<td>CN</td>
+<td>09-02-2018</td>
+<td align="right">48.0</td>
+<td align="right">122.72</td>
+<td align="right">62.96</td>
+<td align="right">99</td>
+<td align="right">92</td>
+<td align="right">7.23</td>
+</tr>
+<tr>
+<td>Ayan</td>
+<td>TR</td>
+<td>09-02-2018</td>
+<td align="right">40.67</td>
+<td align="right">33.6</td>
+<td align="right">79.43</td>
+<td align="right">27</td>
+<td align="right">0</td>
+<td align="right">3.65</td>
+</tr>
+<tr>
+<td>Portree</td>
+<td>GB</td>
+<td>09-02-2018</td>
+<td align="right">57.41</td>
+<td align="right">-6.19</td>
+<td align="right">58.82</td>
+<td align="right">94</td>
+<td align="right">92</td>
+<td align="right">20.76</td>
+</tr>
+<tr>
+<td>Avarua</td>
+<td>CK</td>
+<td>09-02-2018</td>
+<td align="right">-21.21</td>
+<td align="right">-159.78</td>
+<td align="right">73.4</td>
+<td align="right">78</td>
+<td align="right">75</td>
+<td align="right">14.99</td>
+</tr>
+<tr>
+<td>Mariental</td>
+<td>DE</td>
+<td>09-02-2018</td>
+<td align="right">52.28</td>
+<td align="right">10.99</td>
+<td align="right">69.8</td>
+<td align="right">49</td>
+<td align="right">0</td>
+<td align="right">9.17</td>
+</tr>
+<tr>
+<td>Novopokrovka</td>
+<td>RU</td>
+<td>09-02-2018</td>
+<td align="right">45.85</td>
+<td align="right">134.51</td>
+<td align="right">61.97</td>
+<td align="right">65</td>
+<td align="right">92</td>
+<td align="right">5.21</td>
+</tr>
+<tr>
+<td>Salta</td>
+<td>AR</td>
+<td>09-02-2018</td>
+<td align="right">-24.79</td>
+<td align="right">-65.41</td>
+<td align="right">50.0</td>
+<td align="right">57</td>
+<td align="right">0</td>
+<td align="right">3.36</td>
+</tr>
+<tr>
+<td>Santa Isabel do Rio Negro</td>
+<td>BR</td>
+<td>09-02-2018</td>
+<td align="right">-0.41</td>
+<td align="right">-65.02</td>
+<td align="right">83.39</td>
+<td align="right">82</td>
+<td align="right">48</td>
+<td align="right">5.1</td>
+</tr>
+<tr>
+<td>Zhaoyuan</td>
+<td>CN</td>
+<td>09-02-2018</td>
+<td align="right">45.52</td>
+<td align="right">125.08</td>
+<td align="right">66.2</td>
+<td align="right">94</td>
+<td align="right">92</td>
+<td align="right">20.65</td>
+</tr>
+<tr>
+<td>Nabire</td>
+<td>ID</td>
+<td>09-02-2018</td>
+<td align="right">-3.36</td>
+<td align="right">135.5</td>
+<td align="right">65.75</td>
+<td align="right">94</td>
+<td align="right">20</td>
+<td align="right">2.08</td>
+</tr>
+<tr>
+<td>Limbang</td>
+<td>BN</td>
+<td>09-02-2018</td>
+<td align="right">4.75</td>
+<td align="right">115.01</td>
+<td align="right">78.8</td>
+<td align="right">88</td>
+<td align="right">75</td>
+<td align="right">5.82</td>
+</tr>
+<tr>
+<td>Qandala</td>
+<td>SO</td>
+<td>09-02-2018</td>
+<td align="right">11.47</td>
+<td align="right">49.87</td>
+<td align="right">87.98</td>
+<td align="right">53</td>
+<td align="right">12</td>
+<td align="right">2.64</td>
+</tr>
+<tr>
+<td>San Jose El Idolo</td>
+<td>GT</td>
+<td>09-02-2018</td>
+<td align="right">14.45</td>
+<td align="right">-91.42</td>
+<td align="right">73.4</td>
+<td align="right">100</td>
+<td align="right">90</td>
+<td align="right">6.93</td>
+</tr>
+<tr>
+<td>Pontivy</td>
+<td>FR</td>
+<td>09-02-2018</td>
+<td align="right">48.06</td>
+<td align="right">-2.97</td>
+<td align="right">78.8</td>
+<td align="right">39</td>
+<td align="right">0</td>
+<td align="right">8.05</td>
+</tr>
+<tr>
+<td>Pushkino</td>
+<td>RU</td>
+<td>09-02-2018</td>
+<td align="right">56.01</td>
+<td align="right">37.85</td>
+<td align="right">77.0</td>
+<td align="right">38</td>
+<td align="right">0</td>
+<td align="right">6.71</td>
+</tr>
+<tr>
+<td>Roebourne</td>
+<td>AU</td>
+<td>09-02-2018</td>
+<td align="right">-20.77</td>
+<td align="right">117.15</td>
+<td align="right">62.78</td>
+<td align="right">45</td>
+<td align="right">0</td>
+<td align="right">7.45</td>
+</tr>
+<tr>
+<td>Cumbum</td>
+<td>IN</td>
+<td>09-02-2018</td>
+<td align="right">15.58</td>
+<td align="right">79.11</td>
+<td align="right">85.91</td>
+<td align="right">53</td>
+<td align="right">44</td>
+<td align="right">8.68</td>
+</tr>
+<tr>
+<td>Kudat</td>
+<td>MY</td>
+<td>09-02-2018</td>
+<td align="right">6.89</td>
+<td align="right">116.84</td>
+<td align="right">80.6</td>
+<td align="right">83</td>
+<td align="right">75</td>
+<td align="right">9.17</td>
+</tr>
+<tr>
+<td>Redwater</td>
+<td>CA</td>
+<td>09-02-2018</td>
+<td align="right">53.95</td>
+<td align="right">-113.11</td>
+<td align="right">46.94</td>
+<td align="right">76</td>
+<td align="right">0</td>
+<td align="right">9.01</td>
+</tr>
+<tr>
+<td>Puno</td>
+<td>PE</td>
+<td>09-02-2018</td>
+<td align="right">-15.84</td>
+<td align="right">-70.03</td>
+<td align="right">35.6</td>
+<td align="right">22</td>
+<td align="right">0</td>
+<td align="right">3.36</td>
+</tr>
+<tr>
+<td>Vadso</td>
+<td>NO</td>
+<td>09-02-2018</td>
+<td align="right">70.07</td>
+<td align="right">29.75</td>
+<td align="right">64.4</td>
+<td align="right">45</td>
+<td align="right">0</td>
+<td align="right">25.28</td>
+</tr>
+<tr>
+<td>Lasa</td>
+<td>CY</td>
+<td>09-02-2018</td>
+<td align="right">34.92</td>
+<td align="right">32.53</td>
+<td align="right">87.8</td>
+<td align="right">79</td>
+<td align="right">20</td>
+<td align="right">11.41</td>
+</tr>
+<tr>
+<td>Sebastian</td>
+<td>US</td>
+<td>09-02-2018</td>
+<td align="right">27.82</td>
+<td align="right">-80.47</td>
+<td align="right">84.92</td>
+<td align="right">81</td>
+<td align="right">75</td>
+<td align="right">3.36</td>
+</tr>
+<tr>
+<td>Odda</td>
+<td>NO</td>
+<td>09-02-2018</td>
+<td align="right">60.07</td>
+<td align="right">6.55</td>
+<td align="right">53.42</td>
+<td align="right">69</td>
+<td align="right">68</td>
+<td align="right">2.19</td>
+</tr>
+<tr>
+<td>Trat</td>
+<td>TH</td>
+<td>09-02-2018</td>
+<td align="right">12.25</td>
+<td align="right">102.51</td>
+<td align="right">78.62</td>
+<td align="right">100</td>
+<td align="right">76</td>
+<td align="right">1.97</td>
+</tr>
+<tr>
+<td>Fenyi</td>
+<td>CN</td>
+<td>09-02-2018</td>
+<td align="right">27.82</td>
+<td align="right">114.69</td>
+<td align="right">76.91</td>
+<td align="right">97</td>
+<td align="right">48</td>
+<td align="right">2.64</td>
+</tr>
+<tr>
+<td>Ibra</td>
+<td>OM</td>
+<td>09-02-2018</td>
+<td align="right">22.69</td>
+<td align="right">58.55</td>
+<td align="right">85.46</td>
+<td align="right">35</td>
+<td align="right">12</td>
+<td align="right">2.53</td>
+</tr>
+<tr>
+<td>Port Blair</td>
+<td>IN</td>
+<td>09-02-2018</td>
+<td align="right">11.67</td>
+<td align="right">92.75</td>
+<td align="right">81.86</td>
+<td align="right">99</td>
+<td align="right">80</td>
+<td align="right">16.73</td>
+</tr>
+<tr>
+<td>Carnarvon</td>
+<td>ZA</td>
+<td>09-02-2018</td>
+<td align="right">-30.97</td>
+<td align="right">22.13</td>
+<td align="right">44.6</td>
+<td align="right">71</td>
+<td align="right">36</td>
+<td align="right">16.84</td>
+</tr>
+<tr>
+<td>Vaini</td>
+<td>IN</td>
+<td>09-02-2018</td>
+<td align="right">15.34</td>
+<td align="right">74.49</td>
+<td align="right">68.18</td>
+<td align="right">99</td>
+<td align="right">92</td>
+<td align="right">4.54</td>
+</tr>
+<tr>
+<td>Beira</td>
+<td>ES</td>
+<td>09-02-2018</td>
+<td align="right">43.2</td>
+<td align="right">-8.36</td>
+<td align="right">89.6</td>
+<td align="right">49</td>
+<td align="right">0</td>
+<td align="right">6.93</td>
+</tr>
+<tr>
+<td>Acajutla</td>
+<td>SV</td>
+<td>09-02-2018</td>
+<td align="right">13.59</td>
+<td align="right">-89.83</td>
+<td align="right">73.4</td>
+<td align="right">100</td>
+<td align="right">75</td>
+<td align="right">2.24</td>
+</tr>
+<tr>
+<td>Puerto Ayacucho</td>
+<td>CO</td>
+<td>09-02-2018</td>
+<td align="right">5.66</td>
+<td align="right">-67.63</td>
+<td align="right">80.6</td>
+<td align="right">83</td>
+<td align="right">40</td>
+<td align="right">10.29</td>
+</tr>
+<tr>
+<td>Cap Malheureux</td>
+<td>MU</td>
+<td>09-02-2018</td>
+<td align="right">-19.98</td>
+<td align="right">57.61</td>
+<td align="right">71.6</td>
+<td align="right">78</td>
+<td align="right">75</td>
+<td align="right">18.34</td>
+</tr>
+<tr>
+<td>Zajecar</td>
+<td>RS</td>
+<td>09-02-2018</td>
+<td align="right">43.9</td>
+<td align="right">22.28</td>
+<td align="right">88.25</td>
+<td align="right">25</td>
+<td align="right">20</td>
+<td align="right">10.02</td>
+</tr>
+<tr>
+<td>Teguldet</td>
+<td>RU</td>
+<td>09-02-2018</td>
+<td align="right">57.31</td>
+<td align="right">88.17</td>
+<td align="right">59.81</td>
+<td align="right">68</td>
+<td align="right">36</td>
+<td align="right">6.22</td>
+</tr>
+<tr>
+<td>Empangeni</td>
+<td>ZA</td>
+<td>09-02-2018</td>
+<td align="right">-28.75</td>
+<td align="right">31.9</td>
+<td align="right">80.87</td>
+<td align="right">48</td>
+<td align="right">20</td>
+<td align="right">14.5</td>
+</tr>
+<tr>
+<td>Madang</td>
+<td>PG</td>
+<td>09-02-2018</td>
+<td align="right">-5.21</td>
+<td align="right">145.81</td>
+<td align="right">71.78</td>
+<td align="right">100</td>
+<td align="right">88</td>
+<td align="right">4.76</td>
+</tr>
+<tr>
+<td>Sugar Hill</td>
+<td>US</td>
+<td>09-02-2018</td>
+<td align="right">34.11</td>
+<td align="right">-84.03</td>
+<td align="right">78.8</td>
+<td align="right">84</td>
+<td align="right">75</td>
+<td align="right">4.7</td>
+</tr>
+<tr>
+<td>Port Arthur</td>
+<td>US</td>
+<td>09-02-2018</td>
+<td align="right">29.9</td>
+<td align="right">-93.93</td>
+<td align="right">78.08</td>
+<td align="right">99</td>
+<td align="right">90</td>
+<td align="right">9.17</td>
+</tr>
+<tr>
+<td>Agadez</td>
+<td>NE</td>
+<td>09-02-2018</td>
+<td align="right">16.97</td>
+<td align="right">7.99</td>
+<td align="right">95.0</td>
+<td align="right">41</td>
+<td align="right">0</td>
+<td align="right">9.17</td>
+</tr>
+<tr>
+<td>Leua</td>
+<td>AO</td>
+<td>09-02-2018</td>
+<td align="right">-11.65</td>
+<td align="right">20.45</td>
+<td align="right">88.7</td>
+<td align="right">19</td>
+<td align="right">0</td>
+<td align="right">3.42</td>
+</tr>
+<tr>
+<td>Inverell</td>
+<td>AU</td>
+<td>09-02-2018</td>
+<td align="right">-29.78</td>
+<td align="right">151.11</td>
+<td align="right">37.76</td>
+<td align="right">86</td>
+<td align="right">20</td>
+<td align="right">5.66</td>
+</tr>
+<tr>
+<td>Pochutla</td>
+<td>MX</td>
+<td>09-02-2018</td>
+<td align="right">15.74</td>
+<td align="right">-96.47</td>
+<td align="right">75.2</td>
+<td align="right">69</td>
+<td align="right">75</td>
+<td align="right">10.29</td>
+</tr>
+<tr>
+<td>Chumikan</td>
+<td>RU</td>
+<td>09-02-2018</td>
+<td align="right">54.72</td>
+<td align="right">135.31</td>
+<td align="right">54.05</td>
+<td align="right">98</td>
+<td align="right">92</td>
+<td align="right">3.65</td>
+</tr>
+<tr>
+<td>Ennis</td>
+<td>IE</td>
+<td>09-02-2018</td>
+<td align="right">52.84</td>
+<td align="right">-8.98</td>
+<td align="right">64.4</td>
+<td align="right">100</td>
+<td align="right">75</td>
+<td align="right">9.17</td>
+</tr>
+<tr>
+<td>Aykhal</td>
+<td>RU</td>
+<td>09-02-2018</td>
+<td align="right">65.95</td>
+<td align="right">111.51</td>
+<td align="right">39.11</td>
+<td align="right">87</td>
+<td align="right">88</td>
+<td align="right">3.76</td>
+</tr>
+<tr>
+<td>Diffa</td>
+<td>NE</td>
+<td>09-02-2018</td>
+<td align="right">13.32</td>
+<td align="right">12.61</td>
+<td align="right">85.82</td>
+<td align="right">73</td>
+<td align="right">92</td>
+<td align="right">4.54</td>
+</tr>
+<tr>
+<td>Peleduy</td>
+<td>RU</td>
+<td>09-02-2018</td>
+<td align="right">59.63</td>
+<td align="right">112.75</td>
+<td align="right">38.75</td>
+<td align="right">78</td>
+<td align="right">0</td>
+<td align="right">3.98</td>
+</tr>
+<tr>
+<td>Tezu</td>
+<td>IN</td>
+<td>09-02-2018</td>
+<td align="right">27.93</td>
+<td align="right">96.16</td>
+<td align="right">67.46</td>
+<td align="right">99</td>
+<td align="right">88</td>
+<td align="right">1.19</td>
+</tr>
+<tr>
+<td>Vagur</td>
+<td>FO</td>
+<td>09-02-2018</td>
+<td align="right">61.47</td>
+<td align="right">-6.81</td>
+<td align="right">53.51</td>
+<td align="right">94</td>
+<td align="right">80</td>
+<td align="right">27.25</td>
+</tr>
+<tr>
+<td>San</td>
+<td>ML</td>
+<td>09-02-2018</td>
+<td align="right">13.3</td>
+<td align="right">-4.9</td>
+<td align="right">78.53</td>
+<td align="right">100</td>
+<td align="right">76</td>
+<td align="right">1.19</td>
+</tr>
+<tr>
+<td>Domodossola</td>
+<td>IT</td>
+<td>09-02-2018</td>
+<td align="right">46.12</td>
+<td align="right">8.29</td>
+<td align="right">71.6</td>
+<td align="right">66</td>
+<td align="right">90</td>
+<td align="right">1.74</td>
+</tr>
+<tr>
+<td>Sisophon</td>
+<td>KH</td>
+<td>09-02-2018</td>
+<td align="right">13.59</td>
+<td align="right">102.97</td>
+<td align="right">74.3</td>
+<td align="right">97</td>
+<td align="right">88</td>
+<td align="right">1.52</td>
+</tr>
+<tr>
+<td>Ituango</td>
+<td>CO</td>
+<td>09-02-2018</td>
+<td align="right">7.17</td>
+<td align="right">-75.76</td>
+<td align="right">71.33</td>
+<td align="right">91</td>
+<td align="right">24</td>
+<td align="right">1.52</td>
+</tr>
+<tr>
+<td>Panzhihua</td>
+<td>CN</td>
+<td>09-02-2018</td>
+<td align="right">26.59</td>
+<td align="right">101.72</td>
+<td align="right">64.4</td>
+<td align="right">93</td>
+<td align="right">68</td>
+<td align="right">2.19</td>
+</tr>
+<tr>
+<td>Mgandu</td>
+<td>TZ</td>
+<td>09-02-2018</td>
+<td align="right">-5.96</td>
+<td align="right">34.11</td>
+<td align="right">81.5</td>
+<td align="right">26</td>
+<td align="right">0</td>
+<td align="right">9.13</td>
+</tr>
+<tr>
+<td>Dzhubga</td>
+<td>RU</td>
+<td>09-02-2018</td>
+<td align="right">44.32</td>
+<td align="right">38.7</td>
+<td align="right">80.96</td>
+<td align="right">56</td>
+<td align="right">20</td>
+<td align="right">2.75</td>
+</tr>
+<tr>
+<td>Camabatela</td>
+<td>AO</td>
+<td>09-02-2018</td>
+<td align="right">-8.19</td>
+<td align="right">15.37</td>
+<td align="right">80.78</td>
+<td align="right">62</td>
+<td align="right">0</td>
+<td align="right">3.98</td>
+</tr>
+<tr>
+<td>Jian</td>
+<td>IN</td>
+<td>09-02-2018</td>
+<td align="right">25.65</td>
+<td align="right">87.89</td>
+<td align="right">76.28</td>
+<td align="right">97</td>
+<td align="right">68</td>
+<td align="right">9.01</td>
+</tr>
+<tr>
+<td>Balaghat</td>
+<td>IN</td>
+<td>09-02-2018</td>
+<td align="right">21.81</td>
+<td align="right">80.19</td>
+<td align="right">73.04</td>
+<td align="right">97</td>
+<td align="right">92</td>
+<td align="right">2.53</td>
+</tr>
+<tr>
+<td>Pershotravneve</td>
+<td>UA</td>
+<td>09-02-2018</td>
+<td align="right">51.38</td>
+<td align="right">28.88</td>
+<td align="right">82.76</td>
+<td align="right">53</td>
+<td align="right">0</td>
+<td align="right">7.56</td>
+</tr>
+<tr>
+<td>Katangli</td>
+<td>RU</td>
+<td>09-02-2018</td>
+<td align="right">51.71</td>
+<td align="right">143.23</td>
+<td align="right">53.6</td>
+<td align="right">98</td>
+<td align="right">88</td>
+<td align="right">5.1</td>
+</tr>
+<tr>
+<td>Mastic Beach</td>
+<td>US</td>
+<td>09-02-2018</td>
+<td align="right">40.77</td>
+<td align="right">-72.85</td>
+<td align="right">73.04</td>
+<td align="right">78</td>
+<td align="right">20</td>
+<td align="right">5.82</td>
+</tr>
+<tr>
+<td>Padang</td>
+<td>ID</td>
+<td>09-02-2018</td>
+<td align="right">-0.92</td>
+<td align="right">100.36</td>
+<td align="right">82.4</td>
+<td align="right">100</td>
+<td align="right">12</td>
+<td align="right">2.08</td>
+</tr>
+<tr>
+<td>Kars</td>
+<td>TR</td>
+<td>09-02-2018</td>
+<td align="right">40.61</td>
+<td align="right">43.1</td>
+<td align="right">77.0</td>
+<td align="right">31</td>
+<td align="right">0</td>
+<td align="right">12.75</td>
+</tr>
+<tr>
+<td>Malm</td>
+<td>NO</td>
+<td>09-02-2018</td>
+<td align="right">64.07</td>
+<td align="right">11.22</td>
+<td align="right">69.8</td>
+<td align="right">68</td>
+<td align="right">0</td>
+<td align="right">12.75</td>
+</tr>
+<tr>
+<td>Pasni</td>
+<td>PK</td>
+<td>09-02-2018</td>
+<td align="right">25.26</td>
+<td align="right">63.48</td>
+<td align="right">80.33</td>
+<td align="right">94</td>
+<td align="right">0</td>
+<td align="right">17.07</td>
+</tr>
+<tr>
+<td>Sorong</td>
+<td>ID</td>
+<td>09-02-2018</td>
+<td align="right">-0.86</td>
+<td align="right">131.25</td>
+<td align="right">79.88</td>
+<td align="right">100</td>
+<td align="right">68</td>
+<td align="right">12.59</td>
+</tr>
+<tr>
+<td>Van</td>
+<td>TR</td>
+<td>09-02-2018</td>
+<td align="right">38.51</td>
+<td align="right">43.37</td>
+<td align="right">78.8</td>
+<td align="right">50</td>
+<td align="right">20</td>
+<td align="right">11.41</td>
+</tr>
+<tr>
+<td>Mbarara</td>
+<td>UG</td>
+<td>09-02-2018</td>
+<td align="right">-0.61</td>
+<td align="right">30.65</td>
+<td align="right">72.14</td>
+<td align="right">77</td>
+<td align="right">36</td>
+<td align="right">6.67</td>
+</tr>
+<tr>
+<td>Miandrivazo</td>
+<td>MG</td>
+<td>09-02-2018</td>
+<td align="right">-19.53</td>
+<td align="right">45.46</td>
+<td align="right">77.81</td>
+<td align="right">39</td>
+<td align="right">0</td>
+<td align="right">3.2</td>
+</tr>
+<tr>
+<td>Herat</td>
+<td>AF</td>
+<td>09-02-2018</td>
+<td align="right">34.35</td>
+<td align="right">62.22</td>
+<td align="right">80.6</td>
+<td align="right">15</td>
+<td align="right">0</td>
+<td align="right">29.97</td>
+</tr>
+<tr>
+<td>Polis</td>
+<td>CY</td>
+<td>09-02-2018</td>
+<td align="right">35.04</td>
+<td align="right">32.42</td>
+<td align="right">87.8</td>
+<td align="right">74</td>
+<td align="right">20</td>
+<td align="right">11.41</td>
+</tr>
+<tr>
+<td>Villa Carlos Paz</td>
+<td>AR</td>
+<td>09-02-2018</td>
+<td align="right">-31.42</td>
+<td align="right">-64.5</td>
+<td align="right">51.8</td>
+<td align="right">62</td>
+<td align="right">0</td>
+<td align="right">3.36</td>
+</tr>
+<tr>
+<td>Marsa Matruh</td>
+<td>EG</td>
+<td>09-02-2018</td>
+<td align="right">31.35</td>
+<td align="right">27.25</td>
+<td align="right">86.45</td>
+<td align="right">46</td>
+<td align="right">0</td>
+<td align="right">10.8</td>
+</tr>
+<tr>
+<td>Aleksandrovsk-Sakhalinskiy</td>
+<td>RU</td>
+<td>09-02-2018</td>
+<td align="right">50.9</td>
+<td align="right">142.16</td>
+<td align="right">53.78</td>
+<td align="right">100</td>
+<td align="right">12</td>
+<td align="right">3.53</td>
+</tr>
+<tr>
+<td>Kavaratti</td>
+<td>IN</td>
+<td>09-02-2018</td>
+<td align="right">10.57</td>
+<td align="right">72.64</td>
+<td align="right">82.85</td>
+<td align="right">96</td>
+<td align="right">32</td>
+<td align="right">11.25</td>
+</tr>
+</tbody></table>
+
+<div class="footer">
+  <p>&copy Todd Wintering 2018</p>
+</div>
+</body>
+
+</html>

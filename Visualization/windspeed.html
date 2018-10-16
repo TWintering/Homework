@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Wind Speed</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script> 
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<link href="https://fonts.googleapis.com/css?family=Crimson+Text|Work+Sans" rel="stylesheet">
+<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+
+<body>
+
+<nav class="navbar navbar-default navbar-fixed-top">
+  <div class="container-fluid">
+    <div class="navbar-header">
+	<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span> 
+     </button>
+     <a class="navbar-brand" href="index.html">
+	<span class="glyphicon glyphicon-globe"></span>	
+	LATITUDE</a>
+    </div>
+	<div class="collapse navbar-collapse" id="myNavbar">	
+    <ul class="nav navbar-nav navbar-right">
+          <li class="dropdown">
+        <a class="dropdown-toggle" data-toggle="dropdown" href="#">PLOTS
+        <span class="caret"></span></a>
+        <ul class="dropdown-menu">
+          <li><a href="temperature.html" style="color:#F7F9FB"> TEMPERATURE</a></li>
+          <li><a href="humidity.html" style="color:#F7F9FB">HUMIDITY</a></li>
+          <li><a href="cloudiness.html" style="color:#F7F9FB">CLOUDINESS</a></li>
+  	  <li><a href="windspeed.html" style="color:#F7F9FB">WINDSPEED</a></li>
+	
+        </ul>
+      </li>
+      <li><a href="comparison.html">COMPARISON</a></li>
+      <li><a href="data.html">DATA</a></li>
+    </ul>
+  </div>
+</div>
+</nav>
+
+
+
+<div class="container">
+<div class="row">
+<div class="col-sm-8">
+	<div class="well">
+	<h1 align="center">Wind Speed</h1>
+	<hr><p>
+	<img src="assets/windspeed.png" class="img-responsive center-block">
+	<p>There is not a strong relationship between latitude and wind speed, however, winds in excess of 20mph are concentrated in the northern hemisphere.</p>
+	</div> 
+</div>
+
+<div class="col-sm-4">
+	<div class="well">
+	<h1 align="center"> Visualizations </h1>
+	<hr>
+		<a href="temperature.html">
+		<img src="assets/temperature.png" class="img-thumbnail" alt="temperature">
+		</a>
+		<a href="humidity.html">
+		<img src="assets/humidity.png" class="img-thumbnail" alt="humidity">
+		</a>
+		<a href="cloudiness.html">
+		<img src="assets/cloudiness.png" class="img-thumbnail" alt="cloudiness">
+		</a>
+		<a href="windspeed.html">
+		<img src="assets/windspeed.png" class="img-thumbnail" alt="windspeed">
+		</a>	
+	
+
+	</div>
+</div>
+
+<div class="footer">
+  <p>&copy Todd Wintering 2018</p>
+</div>
+</body>
+
